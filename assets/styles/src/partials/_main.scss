@@ -1,0 +1,11 @@
+#app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .zikr-container {
+        font-family: $amiri-bold;
+        @include font-size(80px);
+    }
+}

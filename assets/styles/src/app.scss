@@ -1,5 +1,6 @@
 // helpers
 @import 'partials/variables.scss';
+@import 'partials/functions.scss';
 @import 'partials/mixins.scss';
 
 // reset
@@ -7,3 +8,6 @@
 
 // global
 @import 'partials/global.scss';
+
+// main
+@import 'partials/main.scss';

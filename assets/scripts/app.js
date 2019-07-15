@@ -6,11 +6,7 @@
     loadJSON(function (response) {
         // Parse JSON string into object
         const tasbih = JSON.parse(response);
-        const rand = Math.floor(Math.random() * tasbih.length);
-
-        console.log(tasbih);
-
-        console.log(rand);
+        main.innerText = getRandomTasbih(tasbih);
     });
 
     // make text fit size of the container
@@ -31,4 +27,8 @@ function loadJSON(callback) {
         }
     };
     xobj.send(null);
+}
+
+function getRandomTasbih(tasbih) {
+    return tasbih[Math.floor(Math.random() * tasbih.length)].content
 }

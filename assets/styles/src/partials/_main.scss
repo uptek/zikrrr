@@ -5,7 +5,7 @@
     align-items: center;
 
     .zikr-container {
-        font-family: $amiri-bold;
-        @include font-size(80px);
+        font-family: $font-amiri-bold;
+        @include font-size(150px);
     }
 }

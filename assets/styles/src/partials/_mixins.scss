@@ -2,7 +2,9 @@
     @if $important {
         font-size: $size !important;
         font-size: calculateRem($size) !important;
-    } @else {
+    }
+
+    @else {
         font-size: $size;
         font-size: calculateRem($size);
     }
@@ -17,18 +19,38 @@
 
 @mixin placeholder {
     ::-webkit-input-placeholder {
-        @content
+        @content;
     }
 
     :-moz-placeholder {
-        @content
+        @content;
     }
 
     ::-moz-placeholder {
-        @content
+        @content;
     }
 
     :-ms-input-placeholder {
-        @content
+        @content;
+    }
+}
+
+@mixin interpolate($properties, $min-screen, $max-screen, $min-value, $max-value) {
+    & {
+        @each $property in $properties {
+            #{$property}: $min-value;
+        }
+
+        @media screen and (min-width: $min-screen) {
+            @each $property in $properties {
+                #{$property}: calc-interpolation($min-screen, $min-value, $max-screen, $max-value);
+            }
+        }
+
+        @media screen and (min-width: $max-screen) {
+            @each $property in $properties {
+                #{$property}: $max-value;
+            }
+        }
     }
 }

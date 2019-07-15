@@ -3,9 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5%;
 
-    .zikr-container {
+    .tasbih {
         font-family: $font-amiri-bold;
-        @include font-size(150px);
+        @include interpolate(font-size, 320px, 1920px, 80px, 150px);
+        line-height: 2;
+        text-align: center;
     }
 }

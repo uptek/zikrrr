@@ -2,11 +2,18 @@
     const main = document.querySelector('.tasbih');
 
     // load random tasbih
-    loadJSON(function (response) {
-        // Parse JSON string into object
-        const tasbih = JSON.parse(response);
-        main.innerText = getRandomTasbih(tasbih);
-    });
+    fetch('./dist/tasbih.json', {
+            cache: 'no-store'
+        })
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (tasbih) {
+            main.innerText = getRandomTasbih(tasbih);
+        })
+        .catch(function (error) {
+            console.error(error);
+        });
 
     // make text fit size of the container
     // fitty('.tasbih', {
@@ -14,19 +21,6 @@
     //     maxSize: 250
     // });
 })();
-
-function loadJSON(callback) {
-    var xobj = new XMLHttpRequest();
-    xobj.overrideMimeType("application/json");
-    xobj.open('GET', './dist/tasbih.json', true); // Replace 'my_data' with the path to your file
-    xobj.onreadystatechange = function () {
-        if (xobj.readyState == 4 && xobj.status == "200") {
-            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
-            callback(xobj.responseText);
-        }
-    };
-    xobj.send(null);
-}
 
 function getRandomTasbih(tasbih) {
     return tasbih[Math.floor(Math.random() * tasbih.length)].content

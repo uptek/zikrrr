@@ -6,9 +6,21 @@
     padding: 5%;
 
     .tasbih {
-        font-family: $font-amiri-bold;
-        @include interpolate(font-size, 320px, 1920px, 80px, 150px);
-        line-height: 2;
         text-align: center;
+
+        &--type {
+            &-nastaliq {
+                font-family: $font-mehr-nastaliq;
+                @include interpolate(font-size, 320px, 1920px, 80px, 250px);
+                line-height: 1.4;
+            }
+
+            &-amiri {
+                font-family: $font-amiri-bold;
+                @include interpolate(font-size, 320px, 1920px, 80px, 150px);
+                line-height: 2;
+            }
+        }
+
     }
 }

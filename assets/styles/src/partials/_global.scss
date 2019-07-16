@@ -5,3 +5,9 @@
 .rtl {
     direction: rtl;
 }
+
+.font {
+    &-mehr-nastaliq {
+        font-family: $font-mehr-nastaliq;
+    }
+}

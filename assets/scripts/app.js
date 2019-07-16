@@ -11,7 +11,7 @@
     // make text fit size of the container
     // fitty('.tasbih', {
     //     minSize: 100,
-    //     maxSize: 150
+    //     maxSize: 250
     // });
 })();
 

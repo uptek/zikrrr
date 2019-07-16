@@ -12,7 +12,7 @@
             &-nastaliq {
                 font-family: $font-mehr-nastaliq;
                 @include interpolate(font-size, 320px, 1920px, 80px, 250px);
-                line-height: 1.4;
+                line-height: 1.15;
             }
 
             &-amiri {

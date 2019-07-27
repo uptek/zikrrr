@@ -1,55 +1,8 @@
 @font-face {
-    font-family: AmiriWeb;
-    font-style: normal;
-    font-weight: 400;
-    src: url('../../fonts/amiri/Amiri-Regular.woff2') format('woff2'),
-         url('../../fonts/amiri/Amiri-Regular.woff') format('woff');
-}
-
-@font-face {
-    font-family: AmiriWeb;
-    font-style: normal;
-    font-weight: 700;
-    src: url('../../fonts/amiri/Amiri-Bold.woff2') format('woff2'),
-         url('../../fonts/amiri/Amiri-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: AmiriWeb;
-    font-style: oblique;
-    font-weight: 400;
-    src: url('../../fonts/amiri/Amiri-Slanted.woff2') format('woff2'),
-         url('../../fonts/amiri/Amiri-Slanted.woff') format('woff');
-}
-
-@font-face {
-    font-family: AmiriWeb;
-    font-style: oblique;
-    font-weight: 700;
-    src: url('../../fonts/amiri/Amiri-BoldSlanted.woff2') format('woff2'),
-         url('../../fonts/amiri/Amiri-BoldSlanted.woff') format('woff');
-}
-
-@font-face {
-    font-family: AmiriQuranWeb;
-    font-style: normal;
-    font-weight: 400;
-    src: url('../../fonts/amiri/AmiriQuran.woff2') format('woff2'),
-         url('../../fonts/amiri/AmiriQuran.woff') format('woff');
-}
-
-@font-face {
-    font-family: AmiriQuranColoredWeb;
-    font-style: normal;
-    font-weight: 400;
-    src: url('../../fonts/amiri/AmiriQuranColored.woff2') format('woff2'),
-         url('../../fonts/amiri/AmiriQuranColored.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Mehr Nastaliq';
-    src: url('../../fonts/mehr-nastaliq/mehr-nastaliq.woff2') format('woff2'),
-        url('../../fonts/mehr-nastaliq/mehr-nastaliq.woff') format('woff');
+    font-family: 'Al Qalam Quran';
+    src: local('Al Qalam Quran'), local('AlQalamQuran'),
+        url('../../fonts/AlQalamQuran/AlQalamQuran.woff2') format('woff2'),
+        url('../../fonts/AlQalamQuran/AlQalamQuran.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

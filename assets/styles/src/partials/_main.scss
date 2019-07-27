@@ -6,27 +6,9 @@
     padding: 5%;
 
     .tasbih {
+        font-family: 'Al Qalam Quran';
+        @include interpolate(font-size, 320px, 1920px, 100px, 180px);
+        line-height: 2;
         text-align: center;
-
-        &--type {
-            &-nastaliq {
-                font-family: $font-mehr-nastaliq;
-                @include interpolate(font-size, 320px, 1920px, 80px, 250px);
-                line-height: 1.15;
-            }
-
-            &-amiri {
-                font-family: AmiriQuranWeb;
-                @include interpolate(font-size, 320px, 1920px, 80px, 150px);
-                line-height: 2;
-            }
-
-            &-alqalam {
-                font-family: 'Al Qalam Quran';
-                @include interpolate(font-size, 320px, 1920px, 100px, 180px);
-                line-height: 2;
-            }
-        }
-
     }
 }

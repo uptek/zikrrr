@@ -16,7 +16,7 @@
             }
 
             &-amiri {
-                font-family: $font-amiri-bold;
+                font-family: AmiriQuranWeb;
                 @include interpolate(font-size, 320px, 1920px, 80px, 150px);
                 line-height: 2;
             }

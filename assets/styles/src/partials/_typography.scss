@@ -1,14 +1,49 @@
 @font-face {
-    font-family: 'Amiri Bold';
-    src: url('../../fonts/amiri/Amiri-Bold.eot');
-    src: local('Amiri Bold'), local('Amiri-Bold'),
-        url('../../fonts/amiri/Amiri-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../../fonts/amiri/Amiri-Bold.woff2') format('woff2'),
-        url('../../fonts/amiri/Amiri-Bold.woff') format('woff'),
-        url('../../fonts/amiri/Amiri-Bold.ttf') format('truetype'),
-        url('../../fonts/amiri/Amiri-Bold.svg#Amiri-Bold') format('svg');
-    font-weight: bold;
+    font-family: AmiriWeb;
     font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/amiri/Amiri-Regular.woff2') format('woff2'),
+         url('../../fonts/amiri/Amiri-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../fonts/amiri/Amiri-Bold.woff2') format('woff2'),
+         url('../../fonts/amiri/Amiri-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: oblique;
+    font-weight: 400;
+    src: url('../../fonts/amiri/Amiri-Slanted.woff2') format('woff2'),
+         url('../../fonts/amiri/Amiri-Slanted.woff') format('woff');
+}
+
+@font-face {
+    font-family: AmiriWeb;
+    font-style: oblique;
+    font-weight: 700;
+    src: url('../../fonts/amiri/Amiri-BoldSlanted.woff2') format('woff2'),
+         url('../../fonts/amiri/Amiri-BoldSlanted.woff') format('woff');
+}
+
+@font-face {
+    font-family: AmiriQuranWeb;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/amiri/AmiriQuran.woff2') format('woff2'),
+         url('../../fonts/amiri/AmiriQuran.woff') format('woff');
+}
+
+@font-face {
+    font-family: AmiriQuranColoredWeb;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/amiri/AmiriQuranColored.woff2') format('woff2'),
+         url('../../fonts/amiri/AmiriQuranColored.woff') format('woff');
 }
 
 @font-face {

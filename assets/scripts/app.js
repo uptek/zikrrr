@@ -1,15 +1,15 @@
 (function () {
     const main = document.querySelector('.tasbih');
 
-    // load random tasbih
-    fetch('./dist/tasbih.json', {
+    // fetch all tasbihat
+    fetch('./dist/tasbihat.json', {
             cache: 'no-store'
         })
         .then(function (response) {
-            return response.json()
+            return response.json();
         })
-        .then(function (tasbih) {
-            window.tasbih = tasbih;
+        .then(function (tasbihat) {
+            window.tasbihat = tasbihat;
             let id = getURLParam('id');
 
             if (id) {
@@ -24,14 +24,14 @@
 })();
 
 /**
- * Get random Tasbih
+ * Get a random Tasbih
  */
 function getRandomTasbih() {
-    if (typeof tasbih === 'undefined') {
+    if (typeof tasbihat === 'undefined') {
         return '';
     }
 
-    return tasbih[Math.floor(Math.random() * tasbih.length)].content
+    return tasbihat[Math.floor(Math.random() * tasbihat.length)].content
 }
 
 /**
@@ -44,16 +44,16 @@ function getTasbihByID(id) {
         return '';
     }
 
-    let t = null;
+    let tasbih = null;
 
-    tasbih.forEach(function(temp) {
-        if (temp.id == id) {
-            t = temp;
+    tasbihat.forEach(function(item) {
+        if (item.id == id) {
+            tasbih = item;
             return false;
         }
     });
 
-    return t;
+    return tasbih;
 }
 
 function getURLParam(param) {

@@ -1,3 +1,19 @@
+$min_width: 320px;
+$max_width: 1920px;
+$min_font: 50px;
+$max_font: 180px;
+
+$mod_1: 1.2; // mobile
+$mod_2: 1.5; // desktop
+
+* {
+    box-sizing: border-box;
+}
+
+.rtl {
+    direction: rtl;
+}
+
 #app {
     height: 100vh;
     display: flex;
@@ -7,8 +23,11 @@
 
     .tasbih {
         font-family: 'Al Qalam Quran';
-        @include interpolate(font-size, 320px, 1920px, 100px, 180px);
-        line-height: 2;
+        @include fluid-type($min_width, $max_width, $min_font, $max_font);
+        // font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
+        // @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+
+        line-height: 1.5;
         text-align: center;
     }
 }

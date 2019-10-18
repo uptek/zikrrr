@@ -10,13 +10,16 @@
         })
         .then(function (tasbihat) {
             window.tasbihat = tasbihat;
-            let id = getURLParam('id');
+            let id = getURLParam('id'),
+                tasbih = '';
 
             if (id) {
-                getTasbihByID(id);
+                tasbih = getTasbihByID(id);
             } else {
-                main.innerHTML = getRandomTasbih();
+                tasbih = getRandomTasbih();
             }
+
+            main.innerHTML = tasbih;
         })
         .catch(function (error) {
             console.error(error);
@@ -40,15 +43,18 @@ function getRandomTasbih() {
  * @param {String} id Tasbih ID
  */
 function getTasbihByID(id) {
-    if (typeof tasbih === 'undefined' || typeof id === 'undefined' ) {
+    if (typeof tasbihat === 'undefined' || typeof id === 'undefined') {
         return '';
     }
 
-    let tasbih = null;
+    let tasbih = '';
+    cl(id)
 
-    tasbihat.forEach(function(item) {
+    tasbihat.forEach(function (item) {
+
         if (item.id == id) {
-            tasbih = item;
+            console.log('item', item);
+            tasbih = item.content;
             return false;
         }
     });
@@ -56,6 +62,10 @@ function getTasbihByID(id) {
     return tasbih;
 }
 
+/**
+ * Get parameter from URL
+ * @param {String} param Parameter to get
+ */
 function getURLParam(param) {
     var query = window.location.search.substring(1);
     var params = query.split("&");
@@ -68,4 +78,8 @@ function getURLParam(param) {
     }
 
     return (false);
+}
+
+function cl(s) {
+    console.log(s);
 }

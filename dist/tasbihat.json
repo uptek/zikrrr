@@ -18,5 +18,35 @@
         "id": 10004,
         "content": "سُبْحَانَ اللّهِ وَ بِحَمْدِه <br> سُبْحَانَ اللّهِ الْعَظِيمِِ",
         "category": [ "Tasbih", "Zikr" ]
+    },
+    {
+        "id": 10005,
+        "content": "لا حَوْلَ وَلا قُوَّةَ إِلا بِالله",
+        "category": [ "Tasbih", "Zikr" ]
+    },
+    {
+        "id": 10006,
+        "content": "اللهُ اكبر",
+        "category": [ "Tasbih", "Zikr" ]
+    },
+    {
+        "id": 10007,
+        "content": "استَغفِرُ الله",
+        "category": [ "Tasbih", "Zikr" ]
+    },
+    {
+        "id": 10008,
+        "content": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
+        "category": [ "Tasbih", "Zikr" ]
+    },
+    {
+        "id": 10009,
+        "content": "لا اِلٰهَ اِلَّا الله",
+        "category": [ "Tasbih", "Zikr" ]
+    },
+    {
+        "id": 10010,
+        "content": "لا اِلٰهَ اِلَّا اللهُ مُحَمَّدُ رَّسُولُ الله",
+        "category": [ "Tasbih", "Zikr" ]
     }
 ]

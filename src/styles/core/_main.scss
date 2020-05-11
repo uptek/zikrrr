@@ -1,11 +1,3 @@
-$min_width: 320px;
-$max_width: 1920px;
-$min_font: 50px;
-$max_font: 180px;
-
-$mod_1: 1.2; // mobile
-$mod_2: 1.5; // desktop
-
 * {
     box-sizing: border-box;
 }
@@ -14,7 +6,8 @@ $mod_2: 1.5; // desktop
     direction: rtl;
 }
 
-#app {
+main {
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -24,8 +17,6 @@ $mod_2: 1.5; // desktop
     .content {
         font-family: 'Al Qalam Quran';
         @include fluid-type($min_width, $max_width, $min_font, $max_font);
-        // font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;
-        // @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
 
         line-height: 1.5;
         text-align: center;

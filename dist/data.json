@@ -2,51 +2,51 @@
     {
         "id": 10001,
         "content": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10002,
         "content": "لا اِلٰهَ اِلَّا الله",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10003,
         "content": "لا اِلٰهَ اِلَّا اللهُ مُحَمَّدُ رَّسُولُ الله",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10004,
         "content": "اللهُ اكبر",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10005,
         "content": "سُبْحانَ الله",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10006,
         "content": "اَلحَمدُ لله",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10007,
         "content": "استَغفِرُ الله",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10008,
         "content": "سُبْحَانَ اللّهِ وَ بِحَمْدِهِ",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10009,
         "content": "سُبْحَانَ اللّهِ وَ بِحَمْدِهِ <br> سُبْحَانَ اللّهِ الْعَظِيمْ",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     },
     {
         "id": 10010,
         "content": "لا حَوْلَ وَلا قُوَّةَ إِلا بِالله",
-        "category": [ "Tasbih", "Zikr" ]
+        "category": []
     }
 ]

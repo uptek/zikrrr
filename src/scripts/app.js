@@ -47,7 +47,7 @@ app.get = function (id) {
  */
 app.init = function () {
     // fetch all items
-    fetch('./dist/data.json', {
+    fetch('./dist/data/data.json', {
             cache: 'no-store'
         })
         .then(function (response) {

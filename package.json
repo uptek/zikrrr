@@ -4,7 +4,7 @@
     "description": "",
     "main": "",
     "scripts": {
-        "start": "scss --watch assets/styles/src:assets/styles/dist --no-cache --style compressed"
+        "start": "scss --watch src/styles:dist/styles --no-cache --style compressed"
     },
     "repository": {
         "type": "git",

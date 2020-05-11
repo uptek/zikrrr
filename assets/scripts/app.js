@@ -1,10 +1,12 @@
 window.app = {
-    items: []
+    items: [],
+    content: document.querySelector('.content'),
 };
-window.content = document.querySelector('.content');
 
 /**
- * Get a random Zikr
+ * Get a random item
+ *
+ * @return {String} Zikr content
  */
 app.random = function () {
     if (typeof app.items === 'undefined') {
@@ -15,9 +17,10 @@ app.random = function () {
 }
 
 /**
- * Get Zikr by ID
+ * Get item by ID
  *
- * @param {String} id Zikr ID
+ * @param {int} id Zikr ID
+ * @return {String} Zikr content
  */
 app.get = function (id) {
     id = (typeof id !== 'undefined') ? id : null;
@@ -26,20 +29,17 @@ app.get = function (id) {
         return app.random();
     }
 
-    if (typeof app.items === 'undefined' || typeof id === 'undefined') {
-        return '';
+    if (typeof app.items === 'undefined' || !app.items.length) {
+        return;
     }
 
-    var zikr = '';
+    if (typeof id === 'undefined' ) {
+        return;
+    }
 
-    app.items.forEach(function (item) {
-        if (item.id == id) {
-            zikr = item.content;
-            return false;
-        }
-    });
-
-    return zikr;
+    return app.items.find(function (item) {
+        return item.id == id;
+    }).content;
 }
 
 /**
@@ -55,7 +55,7 @@ app.init = function () {
         })
         .then(function (items) {
             app.items = items;
-            content.innerHTML = app.get(getURLParam('id'));
+            app.content.innerHTML = app.get(getURLParam('id'));
         })
         .catch(function (error) {
             console.error(error);

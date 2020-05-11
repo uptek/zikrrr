@@ -55,7 +55,11 @@ app.init = function () {
         })
         .then(function (items) {
             app.items = items;
-            app.content.innerHTML = app.get(getURLParam('id'));
+            var item = app.get(getURLParam('id'));
+
+            app.content.innerHTML = item;
+            app.content.title = item;
+            app.content.ariaLabel = item;
         })
         .catch(function (error) {
             console.error(error);

@@ -1,0 +1,21 @@
+{
+    "name": "zikrrr",
+    "version": "0.5.0",
+    "description": "",
+    "main": "",
+    "scripts": {
+        "start": "scss --watch assets/styles/src:assets/styles/dist --no-cache --style compressed"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/junaidkbr/zikrrr.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/junaidkbr/zikrrr/issues/"
+    },
+    "homepage": "https://zikrrr.com",
+    "dependencies": {},
+    "devDependencies": {}
+}

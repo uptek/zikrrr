@@ -1,66 +1,70 @@
-(function () {
-    const main = document.querySelector('.tasbih');
+window.app = {
+    items: []
+};
+window.content = document.querySelector('.content');
 
-    // fetch all tasbihat
-    fetch('./dist/tasbihat.json', {
+/**
+ * Get a random Zikr
+ */
+app.random = function () {
+    if (typeof app.items === 'undefined') {
+        return '';
+    }
+
+    return app.items[Math.floor(Math.random() * app.items.length)].content;
+}
+
+/**
+ * Get Zikr by ID
+ *
+ * @param {String} id Zikr ID
+ */
+app.get = function (id) {
+    id = (typeof id !== 'undefined') ? id : null;
+
+    if (!id) {
+        return app.random();
+    }
+
+    if (typeof app.items === 'undefined' || typeof id === 'undefined') {
+        return '';
+    }
+
+    var zikr = '';
+
+    app.items.forEach(function (item) {
+        if (item.id == id) {
+            zikr = item.content;
+            return false;
+        }
+    });
+
+    return zikr;
+}
+
+/**
+ * Initialize loading of items from data.json and printing to DOM
+ */
+app.init = function () {
+    // fetch all items
+    fetch('./dist/data.json', {
             cache: 'no-store'
         })
         .then(function (response) {
             return response.json();
         })
-        .then(function (tasbihat) {
-            window.tasbihat = tasbihat;
-            let id = getURLParam('id'),
-                tasbih = '';
-
-            if (id) {
-                tasbih = getTasbihByID(id);
-            } else {
-                tasbih = getRandomTasbih();
-            }
-
-            main.innerHTML = tasbih;
+        .then(function (items) {
+            app.items = items;
+            content.innerHTML = app.get(getURLParam('id'));
         })
         .catch(function (error) {
             console.error(error);
         });
+};
+
+(function () {
+    app.init();
 })();
-
-/**
- * Get a random Tasbih
- */
-function getRandomTasbih() {
-    if (typeof tasbihat === 'undefined') {
-        return '';
-    }
-
-    return tasbihat[Math.floor(Math.random() * tasbihat.length)].content
-}
-
-/**
- * Get Tasbih by ID
- *
- * @param {String} id Tasbih ID
- */
-function getTasbihByID(id) {
-    if (typeof tasbihat === 'undefined' || typeof id === 'undefined') {
-        return '';
-    }
-
-    let tasbih = '';
-    cl(id)
-
-    tasbihat.forEach(function (item) {
-
-        if (item.id == id) {
-            console.log('item', item);
-            tasbih = item.content;
-            return false;
-        }
-    });
-
-    return tasbih;
-}
 
 /**
  * Get parameter from URL
@@ -78,8 +82,4 @@ function getURLParam(param) {
     }
 
     return (false);
-}
-
-function cl(s) {
-    console.log(s);
 }

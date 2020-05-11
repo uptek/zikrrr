@@ -1,11 +1,13 @@
 // helpers
-@import 'partials/variables.scss';
-@import 'partials/typography.scss';
-@import 'partials/functions.scss';
-@import 'partials/mixins.scss';
+@import 'helpers/variables';
+@import 'helpers/functions';
+@import 'helpers/mixins';
 
-// reset
-@import 'partials/reset.scss';
+// typography
+@import 'type/typography';
 
-// main
-@import 'partials/main.scss';
+// vendors
+@import 'vendors/reset';
+
+// core
+@import 'core/main';

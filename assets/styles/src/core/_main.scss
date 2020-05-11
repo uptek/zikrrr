@@ -21,7 +21,7 @@ $mod_2: 1.5; // desktop
     align-items: center;
     padding: 5%;
 
-    .tasbih {
+    .content {
         font-family: 'Al Qalam Quran';
         @include fluid-type($min_width, $max_width, $min_font, $max_font);
         // font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem;

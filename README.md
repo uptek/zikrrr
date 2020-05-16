@@ -2,7 +2,6 @@
     <h1>
         <img width="300" src="./assets/img/zikrrr-logo.png" alt="Zikrrr – A random Zikr/Tasbeeh for newly opened tabs by Junaid Ahmed">
         <br>
-        <br>
         ⚡️
         <br>
         zikrrr.com

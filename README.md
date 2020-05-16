@@ -1,14 +1,12 @@
-<div align="center">
-    <h1>
-        <img width="300" src="./assets/img/zikrrr-logo.png" alt="Zikrrr – A random Zikr/Tasbeeh for newly opened tabs by Junaid Ahmed">
-        <br>
-        ⚡️
-        <br>
-        zikrrr.com
+<h1 align="center">
+    <img width="180" src="./assets/img/zikrrr-logo.png" alt="Zikrrr – A random Zikr/Tasbeeh for newly opened tabs by Junaid Ahmed">
+    <br>
+
+`zikrrr.com`
 
 [![Tweet for help](https://img.shields.io/twitter/follow/junaidkbr.svg?style=social&label=Tweet%20@junaidkbr)](https://twitter.com/junaidkbr/) [![GitHub followers](https://img.shields.io/github/followers/junaidkbr.svg?style=social&label=Follow)](https://github.com/junaidkbr?tab=followers) [![Uptek.co](https://img.shields.io/badge/Supported%20by-Uptek.co%20Web%20Solutions%20Agency%20%E2%86%92-blue)](https://Upteck.co "This open source project is supported by Upteck.co")
-    </h1>
-</div>
+</h1>
+
 <br>
 
 So, what do we get when we open a new tab in a browser? Nothing. Even more precisely, a plain white screen of nothing. The new tab is where Zikrrr comes in. The Zikrrr app is my humble effort to welcome you with an illuminated tasbeeh every time you open a new tab in your browser. Praise and glorification of Allah (SWT) in a short tasbeeh for you to recite on the go.

@@ -1,2 +1,13 @@
+# Node
+node_modules
+test/results
+test/coverage
+
+# Project
+dist
+
+## OS X
 .DS_Store
-dist/
+._*
+.Spotlight-V100
+.Trashes

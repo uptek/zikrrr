@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img width="180" src="./assets/img/zikrrr-logo.png" alt="Zikrrr – A random dhikr/tasbih for newly opened tabs by Junaid Ahmed">
+    <img width="180" src="./static/images/zikrrr-logo.png" alt="Zikrrr – A random dhikr/tasbih for newly opened tabs by Junaid Ahmed">
     <br>
 
 `zikrrr.com`
@@ -11,7 +11,7 @@
 
 So, what do we get when we open a new tab in a browser? Nothing. Even more precisely, a plain white screen of nothing. The new tab is where Zikrrr comes in. The Zikrrr app is my humble effort to welcome you with an illuminated tasbih every time you open a new tab in your browser. Praise and glorification of Allah (SWT) in a short tasbih for you to recite on the go.
 
-[![Start](./assets/img/zikrrr-getting-started.png)](/)
+[![Start](./static/images/zikrrr-getting-started.png)](/)
 ## Getting Started
 A straight forward process, simply add the following URL under your browser's settings for the newly created tab.
 
@@ -19,7 +19,7 @@ A straight forward process, simply add the following URL under your browser's se
 https://zikrrr.com/
 ```
 
-[![Contribute](./assets/img/zikrrr-contributions.png)](/)
+[![Contribute](./static/images/zikrrr-contributions.png)](/)
 ## Contribute to the Zikrrr app
 The Zikrrr app eagerly awaits your PRs. You can choose to only add/update new tasbih, style or add new features to make it even more visually appealing.
 
@@ -63,7 +63,7 @@ INSIDE: /zikrrr/src/styles
 
 Refer to the ` knowledge-base.md ` file for definitions of terms used in this documentation.
 
-[![Contributors](./assets/img/zikrrr-community-grants.png)](/)
+[![Contributors](./static/images/zikrrr-community-grants.png)](/)
 ## Contributors
 This project has been made possible with the help from these fine contributors:
 
@@ -71,7 +71,7 @@ This project has been made possible with the help from these fine contributors:
 
 👉 Props to Ihtisham Zahoor (@ihtishamzahoor) for the documentation.
 
-[![Attribution](./assets/img/zikrrr-licenses.png)](/)
+[![Attribution](./static/images/zikrrr-licenses.png)](/)
 ## License & Attribution
 MIT © Junaid Ahmed
 

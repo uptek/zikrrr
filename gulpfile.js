@@ -5,11 +5,12 @@
 
 var settings = {
 	clean: true,
+	html: true,
 	scripts: true,
 	polyfills: false,
 	styles: true,
 	svgs: false,
-	copy: false,
+	copy: true,
 	reload: true
 };
 
@@ -21,24 +22,28 @@ var settings = {
 var paths = {
 	input: 'src/',
 	output: 'dist/',
+	html: {
+		input: 'src/*.html',
+		output: 'dist/'
+	},
 	scripts: {
 		input: 'src/js/*',
 		polyfills: '.polyfill.js',
-		output: 'dist/js/'
+		output: 'dist/assets/js/'
 	},
 	styles: {
 		input: 'src/sass/**/*.{scss,sass}',
-		output: 'dist/css/'
+		output: 'dist/assets/css/'
 	},
 	svgs: {
 		input: 'src/svg/*.svg',
-		output: 'dist/svg/'
+		output: 'dist/assets/svg/'
 	},
 	copy: {
 		input: 'src/copy/**/*',
-		output: 'dist/'
+		output: 'dist/assets'
 	},
-	reload: './'
+	reload: './dist'
 };
 
 
@@ -69,6 +74,9 @@ var lazypipe = require('lazypipe');
 var rename = require('gulp-rename');
 var header = require('gulp-header');
 var package = require('./package.json');
+
+// HTML
+var htmlmin = require('gulp-htmlmin');
 
 // Scripts
 var jshint = require('gulp-jshint');
@@ -120,6 +128,15 @@ var jsTasks = lazypipe()
 	.pipe(optimizejs)
 	.pipe(header, banner.main, {package: package})
 	.pipe(dest, paths.scripts.output);
+
+var buildHTML = function (done) {
+	// Make sure this feature is activated before running
+	if (!settings.html) return done();
+
+	return src(paths.html.input)
+		.pipe(htmlmin({collapseWhitespace: true}))
+		.pipe(dest(paths.html.output));
+}
 
 // Lint, minify, and concatenate scripts
 var buildScripts = function (done) {
@@ -278,6 +295,7 @@ var watchSource = function (done) {
 exports.default = series(
 	cleanDist,
 	parallel(
+		buildHTML,
 		buildScripts,
 		lintScripts,
 		buildStyles,

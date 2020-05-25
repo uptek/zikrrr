@@ -1,26 +1,21 @@
-window.app = {
-    items: [],
-    content: document.querySelector('.content'),
-};
-
 /**
  * Get a random item
  *
- * @return {String} Zikr content
+ * @return {String} Tasbih content
  */
 app.random = function () {
-    if (typeof app.items === 'undefined') {
+    if (typeof app.items === 'undefined' || !app.itemCount) {
         return '';
     }
 
-    return app.items[Math.floor(Math.random() * app.items.length)].content;
+    return app.items[Math.floor(Math.random() * app.itemCount)].content;
 }
 
 /**
  * Get item by ID
  *
- * @param {int} id Zikr ID
- * @return {String} Zikr content
+ * @param {int} id Tasbih ID
+ * @return {String} Tasbih content
  */
 app.get = function (id) {
     id = (typeof id !== 'undefined') ? id : null;
@@ -29,11 +24,11 @@ app.get = function (id) {
         return app.random();
     }
 
-    if (typeof app.items === 'undefined' || !app.items.length) {
+    if (typeof app.items === 'undefined' || !app.itemCount) {
         return;
     }
 
-    if (typeof id === 'undefined' ) {
+    if (typeof id === 'undefined') {
         return;
     }
 
@@ -43,27 +38,26 @@ app.get = function (id) {
 }
 
 /**
- * Initialize loading of items from data.json and printing to DOM
+ * Initialize
+ *
+ * - Counts all Tasbih items
+ * - Caches DOM element for content
+ * - Loads mentioned or a random Tasbih
  */
 app.init = function () {
-    // fetch all items
-    fetch('./dist/data/data.json', {
-            cache: 'no-store'
-        })
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (items) {
-            app.items = items;
-            var item = app.get(getURLParam('id'));
+    // Count all tasbih items
+    window.app['itemCount'] = window.app.items.length;
 
-            app.content.innerHTML = item;
-            app.content.title = item;
-            app.content.ariaLabel = item;
-        })
-        .catch(function (error) {
-            console.error(error);
-        });
+    // Get DOM element for tasbih content
+    window.app['content'] = document.querySelector('.content');
+
+    // Get the mentioned Tasbih from URL parameter or a random one if not mentioned
+    var item = app.get(getURLParam('id'));
+
+    // Print the chosen Tasbih to DOM
+    app.content.innerHTML = item;
+    app.content.title = item;
+    app.content.ariaLabel = item;
 };
 
 (function () {
@@ -76,9 +70,10 @@ app.init = function () {
  */
 function getURLParam(param) {
     var query = window.location.search.substring(1);
-    var params = query.split("&");
+    var params = query.split('&');
+
     for (var i = 0; i < params.length; i++) {
-        var pair = params[i].split("=");
+        var pair = params[i].split('=');
 
         if (pair[0] == param) {
             return pair[1];

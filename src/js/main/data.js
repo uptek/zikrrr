@@ -1,6 +1,6 @@
-window.app = window.app || {};
+window.app = (typeof window.app !== 'undefined') ? window.app : {};
 
-var data = [
+window.app['items'] = [
     {
         "id": 10001,
         "content": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",

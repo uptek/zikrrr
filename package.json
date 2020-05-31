@@ -1,21 +1,47 @@
 {
-    "name": "zikrrr",
-    "version": "0.5.0",
-    "description": "",
-    "main": "",
-    "scripts": {
-        "start": "scss --watch src/styles:dist/styles --no-cache --style compressed"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/junaidkbr/zikrrr.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/junaidkbr/zikrrr/issues/"
-    },
-    "homepage": "https://zikrrr.com",
-    "dependencies": {},
-    "devDependencies": {}
+	"name": "Zikrrr",
+	"version": "0.6.0",
+	"description": "Recite random tasbih on the go",
+	"main": "./dist/app.js",
+	"author": {
+		"name": "Junaid Ahmed",
+		"url": "https://junaidahmed.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/junaidkbr/zikrrr"
+	},
+	"boilerplate": {
+		"version": "2.2.6",
+		"author": "Chris Ferdinandi",
+		"url": "https://gomakethings.com",
+		"repo": "https://github.com/cferdinandi/gulp-boilerplate"
+	},
+	"browserslist": [
+		"last 2 versions",
+		"> 0.25%"
+	],
+	"devDependencies": {
+		"autoprefixer": "9.6.1",
+		"browser-sync": "2.26.7",
+		"cssnano": "4.1.10",
+		"del": "3.0.0",
+		"gulp": "4.0.2",
+		"gulp-concat": "2.6.1",
+		"gulp-flatmap": "1.0.2",
+		"gulp-header": "2.0.5",
+		"gulp-jshint": "2.1.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-optimize-js": "1.1.0",
+		"gulp-postcss": "8.0.0",
+		"gulp-rename": "1.4.0",
+		"gulp-sass": "4.0.2",
+		"gulp-svgmin": "2.1.0",
+		"gulp-terser": "1.1.7",
+		"jshint": "2.9.6",
+		"jshint-stylish": "2.2.1",
+		"lazypipe": "1.0.1",
+		"node-sass": "^4.14.1"
+	}
 }

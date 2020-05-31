@@ -1,4 +1,6 @@
-[
+window.app = (typeof window.app !== 'undefined') ? window.app : {};
+
+window.app['items'] = [
     {
         "id": 10001,
         "content": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
@@ -49,4 +51,4 @@
         "content": "لا حَوْلَ وَلا قُوَّةَ إِلا بِالله",
         "category": []
     }
-]
+];

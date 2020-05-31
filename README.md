@@ -1,30 +1,44 @@
 <h1 align="center">
-    <img width="180" src="./assets/img/zikrrr-logo.png" alt="Zikrrr – A random dhikr/tasbih for newly opened tabs by Junaid Ahmed">
+    <img width="180" src="./static/images/zikrrr-logo.png" alt="Zikrrr – A random dhikr/tasbih for newly opened tabs by Junaid Ahmed">
     <br>
 
-`zikrrr.com`
+Zikrrr
 
-[![Tweet for help](https://img.shields.io/twitter/follow/junaidkbr.svg?style=social&label=Tweet%20@junaidkbr)](https://twitter.com/junaidkbr/) [![GitHub followers](https://img.shields.io/github/followers/junaidkbr.svg?style=social&label=Follow)](https://github.com/junaidkbr?tab=followers) [![Uptek.co](https://img.shields.io/badge/Supported%20by-Uptek.co%20Web%20Solutions%20Agency%20%E2%86%92-blue)](https://Upteck.co "This open source project is supported by Upteck.co")
+[![Tweet for help](https://img.shields.io/twitter/follow/junaidkbr.svg?style=social&label=Tweet%20@junaidkbr)](https://twitter.com/junaidkbr/) [![GitHub followers](https://img.shields.io/github/followers/junaidkbr.svg?style=social&label=Follow)](https://github.com/junaidkbr?tab=followers) [![Uptek.co](https://img.shields.io/badge/Supported%20by-Uptek.co%20Web%20Solutions%20Agency%20%E2%86%92-blue)](https://Uptek.co "This open source project is supported by Uptek.co")
 </h1>
 
 <br>
 
-So, what do we get when we open a new tab in a browser? Nothing. Even more precisely, a plain white screen of nothing. The new tab is where Zikrrr comes in. The Zikrrr app is my humble effort to welcome you with an illuminated tasbih every time you open a new tab in your browser. Praise and glorification of Allah (SWT) in a short tasbih for you to recite on the go.
+An easy, minimal and distraction free way of reciting tasbih while you work and surf the internet.
 
-[![Start](./assets/img/zikrrr-getting-started.png)](/)
+[![Start](./static/images/zikrrr-getting-started.png)](/)
 ## Getting Started
-A straight forward process, simply add the following URL under your browser's settings for the newly created tab.
+Simply set the following URL as your new tab in your favourite browser (Chrome) and you're set to go. From now on, every time you open a new tab, you'll recite a random tasbih. 👐
 
 ```sh
 https://zikrrr.com/
 ```
 
-[![Contribute](./assets/img/zikrrr-contributions.png)](/)
-## Contribute to the Zikrrr app
-The Zikrrr app eagerly awaits your PRs. You can choose to only add/update new tasbih, style or add new features to make it even more visually appealing.
+**Don't know how to setup `https://zikrrr.com/` as new tab?**
+- Google Chrome: Use the [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia) extension to set any website as new tab.
+- Firefox: Use the [Custom New Tab Page](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-page/) extension to set any website as new tab.
+- Safari: Use this [tutorial](https://www.howtogeek.com/284582/how-to-open-a-new-tab-to-a-specific-webpage-in-your-browser/) on how to set any website as new tab.
 
-### 📦 Add/Update Tasbih
-In case you just want to add/update new tasbihat to this app you can easily do so by updating the app > dist > data > data.json file. Simply add a new object with tasbih as a value to the content property.
+[![Contribute](./static/images/zikrrr-contributions.png)](/)
+## How to Contribute? 👨‍💻👩‍💻
+
+We would love you to contribute to improve the platform!
+
+You can contribute to Zikrrr app in the following ways:
+1. Add/Update new tasbih.
+2. [Report issues](https://github.com/junaidkbr/zikrrr/issues/new).
+3. Fix [reported issues](https://github.com/junaidkbr/zikrrr/issues).
+4. Add new features.
+
+> Beware it is best to discuss before you start to work on a major change or new big feature.
+
+### Add/Update Tasbih
+To add or update tasbihat, the tasbihat JSON file is located at `dist/js/main/data.js` file. The tasbih JSON structure is very simple which is listed below. If you need help with writing Arabic, use the [Arabic Keyboard](http://www.arabic-keyboard.org/).
 
 ```sh
 {
@@ -34,44 +48,25 @@ In case you just want to add/update new tasbihat to this app you can easily do s
 }
 ```
 
-### 📦 Customize the Zikrrr app
+If you are a non-techy person and want to add or report updates for specific tasbihat, you can do so by opening a Github issue or tweet [@junaidkbr](https://twitter.com/junaidkbr).
 
-The source code for the zikrrr app has a modern workflow and includes a build process for SASS files compilation. Feel free to write and organize your stylings using SASS and then compile your stylings to the CSS which every browser understands. You can organize your stylings using the readily available SASS files by the Zikrr app.
+### Development & Workflow
+- Clone repository
+- Install dependencies: `npm install`
+- Run project locally: `gulp watch`
 
-```sh
-INSIDE: /zikrrr/src/styles
+### Resources 📚
+- `[knowledge-base.md](https://github.com/junaidkbr/zikrrr/blob/master/knowledge-base.md)`: definitions of terms used throughout the app.
+- `[Arabic Keyboard](http://www.arabic-keyboard.org/)`: An easy to use Arabic writing tool.
 
-├── core
-|   └── _main.scss
-|
-├── helpers
-|   ├── _functions.scss
-|   ├── _mixins.scss
-|   └── _variables.scss
-|
-├── type
-|   └── _typography.scss
-|
-├── vendors
-|   └── _reset.scss
-|
-└── app.scss
-
-```
-
-### 📚 See also
-
-Refer to the ` knowledge-base.md ` file for definitions of terms used in this documentation.
-
-[![Contributors](./assets/img/zikrrr-community-grants.png)](/)
-## Contributors
+[![Contributors](./static/images/zikrrr-community-grants.png)](/)
+## Contributors ✨
 This project has been made possible with the help from these fine contributors:
 
 👉 Special thanks to Uptek.co (@Uptekdotco) for supporting my time on this app.
-
 👉 Props to Ihtisham Zahoor (@ihtishamzahoor) for the documentation.
 
-[![Attribution](./assets/img/zikrrr-licenses.png)](/)
+[![Attribution](./static/images/zikrrr-licenses.png)](/)
 ## License & Attribution
 MIT © Junaid Ahmed
 

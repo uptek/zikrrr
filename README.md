@@ -56,26 +56,30 @@ If you are a non-techy person and want to add or report updates for specific tas
 - Run project locally: `gulp watch`
 
 ### Resources 📚
-- `[knowledge-base.md](https://github.com/junaidkbr/zikrrr/blob/master/knowledge-base.md)`: definitions of terms used throughout the app.
-- `[Arabic Keyboard](http://www.arabic-keyboard.org/)`: An easy to use Arabic writing tool.
+-  [knowledge-base.md](https://github.com/junaidkbr/zikrrr/blob/master/knowledge-base.md): definitions of terms used throughout the app.
+-  [Arabic Keyboard](http://www.arabic-keyboard.org/): An easy to use Arabic writing tool.
 
 [![Contributors](./static/images/zikrrr-community-grants.png)](/)
 ## Contributors ✨
 This project has been made possible with the help from these fine contributors:
 
-👉 Special thanks to Uptek.co (@Uptekdotco) for supporting my time on this app.
-👉 Props to Ihtisham Zahoor (@ihtishamzahoor) for the documentation.
+
 
 [![Attribution](./static/images/zikrrr-licenses.png)](/)
 ## License & Attribution
-MIT © Junaid Ahmed
+MIT © [Junaid Ahmed](https://junaidahmed.com)
 
-Many thanks to these fine projects for their awesome set of graphics:
+This project is result of awesome people who contribute to this project. Many thanks to <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> and <a target="_blank" href="https://icons8.com">Icons8</a> for the awesome icons.
 
-### Freepik
-Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-### Icons8
-<div><a target="_blank" href="https://icons8.com/icons/set/rocket">Rocket icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
-<div><a target="_blank" href="https://icons8.com/icons/set/code">Code icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
-<div><a target="_blank" href="https://icons8.com/icons/set/community-grants">Community Grants icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
-<div><a target="_blank" href="https://icons8.com/icons/set/software-license">Software License icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
+<!-- CONTRIBUTORS-LIST:START -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/junaidkbr"><img src="https://avatars.githubusercontent.com/u/12216819?v=3" width="100px;" alt=""/><br /><sub><b>Junaid Ahmed</b></sub></a></td>
+    <td align="center"><a href="https://github.com/ihtishamzahoor"><img src="https://avatars.githubusercontent.com/u/19364485?v=3" width="100px;" alt=""/><br /><sub><b>Ihtisham Zahoor</b></sub></a></td>
+  </tr>
+</table>
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- CONTRIBUTORS-LIST:END -->

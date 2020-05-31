@@ -55,15 +55,9 @@ If you are a non-techy person and want to add or report updates for specific tas
 - Install dependencies: `npm install`
 - Run project locally: `gulp watch`
 
-### Resources 📚
+## Resources 📚
 -  [knowledge-base.md](https://github.com/junaidkbr/zikrrr/blob/master/knowledge-base.md): definitions of terms used throughout the app.
 -  [Arabic Keyboard](http://www.arabic-keyboard.org/): An easy to use Arabic writing tool.
-
-[![Contributors](./static/images/zikrrr-community-grants.png)](/)
-## Contributors ✨
-This project has been made possible with the help from these fine contributors:
-
-
 
 [![Attribution](./static/images/zikrrr-licenses.png)](/)
 ## License & Attribution

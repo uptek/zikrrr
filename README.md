@@ -4,12 +4,13 @@
 
 Zikrrr
 
-[![Tweet for help](https://img.shields.io/twitter/follow/junaidkbr.svg?style=social&label=Tweet%20@junaidkbr)](https://twitter.com/junaidkbr/) [![GitHub followers](https://img.shields.io/github/followers/junaidkbr.svg?style=social&label=Follow)](https://github.com/junaidkbr?tab=followers) [![Uptek.co](https://img.shields.io/badge/Supported%20by-Uptek.co%20Web%20Solutions%20Agency%20%E2%86%92-blue)](https://Uptek.co "This open source project is supported by Uptek.co")
+[![Tweet for help](https://img.shields.io/twitter/follow/junaidkbr.svg?style=social&label=Tweet%20@junaidkbr)](https://twitter.com/junaidkbr/) [![GitHub followers](https://img.shields.io/github/followers/junaidkbr.svg?style=social&label=Follow)](https://github.com/junaidkbr?tab=followers)
 </h1>
 
 <br>
 
 An easy, minimal and distraction free way of reciting tasbih while you work and surf the internet.
+
 
 [![Start](./static/images/zikrrr-getting-started.png)](/)
 ## Getting Started
@@ -19,10 +20,11 @@ Simply set the following URL as your new tab in your favourite browser (Chrome) 
 https://zikrrr.com/
 ```
 
-**Don't know how to setup `https://zikrrr.com/` as new tab?**
+**How to setup `https://zikrrr.com/` as new tab?**
 - Google Chrome: Use the [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia) extension to set any website as new tab.
 - Firefox: Use the [Custom New Tab Page](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-page/) extension to set any website as new tab.
 - Safari: Use this [tutorial](https://www.howtogeek.com/284582/how-to-open-a-new-tab-to-a-specific-webpage-in-your-browser/) on how to set any website as new tab.
+
 
 [![Contribute](./static/images/zikrrr-contributions.png)](/)
 ## How to Contribute? 👨‍💻👩‍💻
@@ -58,6 +60,7 @@ If you are a non-techy person and want to add or report updates for specific tas
 ## Resources 📚
 -  [knowledge-base.md](https://github.com/junaidkbr/zikrrr/blob/master/knowledge-base.md): definitions of terms used throughout the app.
 -  [Arabic Keyboard](http://www.arabic-keyboard.org/): An easy to use Arabic writing tool.
+
 
 [![Attribution](./static/images/zikrrr-licenses.png)](/)
 ## License & Attribution

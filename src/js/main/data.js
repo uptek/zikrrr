@@ -107,7 +107,7 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "ALLAH",
         "translations" : {
-            "english": "Allah",
+            "english": "The Greatest Name",
             "urdu"   : ""
         }
     },

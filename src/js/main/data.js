@@ -1,14 +1,14 @@
 window.app = (typeof window.app !== 'undefined') ? window.app : {};
 
 window.app['items'] = [
-    {
+{
         "id": 10001,
         "content": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -17,8 +17,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -27,8 +27,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -37,8 +37,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -47,8 +47,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -57,8 +57,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -67,8 +67,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -77,8 +77,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -87,8 +87,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -97,8 +97,8 @@ window.app['items'] = [
         "category": [],
         "transliteration": "",
         "translations" : {
-            "english": "",
-            "urdu"   : ""
+            "en": "",
+            "ur"   : ""
         }
     },
     {
@@ -107,8 +107,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "ALLAH",
         "translations" : {
-            "english": "The Greatest Name",
-            "urdu"   : ""
+            "en": "The Greatest Name",
+            "ur"   : "سب سے بڑا نام"
         }
     },
     {
@@ -117,8 +117,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AR-RAHMAAN",
         "translations" : {
-            "english": "The Most or Entirely Merciful",
-            "urdu"   : ""
+            "en": "The Most or Entirely Merciful",
+            "ur"   : "بہت مہربان"
         }
     },
     {
@@ -127,8 +127,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AR-RAHEEM",
         "translations" : {
-            "english": "The Bestower of Mercy",
-            "urdu"   : ""
+            "en": "The Bestower of Mercy",
+            "ur"   : "نہایت رحم والا"
         }
     },
     {
@@ -137,8 +137,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MALIK",
         "translations" : {
-            "english": "The King and Owner of Dominion",
-            "urdu"   : ""
+            "en": "The King and Owner of Dominion",
+            "ur"   : "بادشاہ"
         }
     },
     {
@@ -147,8 +147,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-QUDDUS",
         "translations" : {
-            "english": "The Absolutely Pure",
-            "urdu"   : ""
+            "en": "The Absolutely Pure",
+            "ur"   : "پاک ذات"
         }
     },
     {
@@ -157,8 +157,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AS-SALAM",
         "translations" : {
-            "english": "The Perfection and Giver of Peace",
-            "urdu"   : ""
+            "en": "The Perfection and Giver of Peace",
+            "ur"   : "سلامتی والا"
         }
     },
     {
@@ -167,8 +167,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MU’MIN",
         "translations" : {
-            "english": "The One Who gives Emaan and Security",
-            "urdu"   : ""
+            "en": "The One Who gives Emaan and Security",
+            "ur"   : "امن دینے والا"
         }
     },
     {
@@ -177,8 +177,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MUHAYMIN",
         "translations" : {
-            "english": "The Guardian, The Witness, The Overseer",
-            "urdu"   : ""
+            "en": "The Guardian, The Witness, The Overseer",
+            "ur"   : "نگرانی کرنے والا"
         }
     },
     {
@@ -187,8 +187,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-AZEEZ",
         "translations" : {
-            "english": "The All Mighty",
-            "urdu"   : ""
+            "en": "The All Mighty",
+            "ur"   : "غالب"
         }
     },
     {
@@ -197,8 +197,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-JABBAR",
         "translations" : {
-            "english": "The Compeller, The Restorer",
-            "urdu"   : ""
+            "en": "The Compeller, The Restorer",
+            "ur"   : "زبردست"
         }
     },
     {
@@ -207,8 +207,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MUTAKABBIR",
         "translations" : {
-            "english": "The Supreme, The Majestic",
-            "urdu"   : ""
+            "en": "The Supreme, The Majestic",
+            "ur"   : "بڑائی والا"
         }
     },
     {
@@ -217,8 +217,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-KHAALIQ",
         "translations" : {
-            "english": "The Creator, The Maker",
-            "urdu"   : ""
+            "en": "The Creator, The Maker",
+            "ur"   : "بنانے والا"
         }
     },
     {
@@ -227,8 +227,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-BAARI",
         "translations" : {
-            "english": "The Originator",
-            "urdu"   : ""
+            "en": "The Maker of Order",
+            "ur"   : "پیدا کرنے والا"
         }
     },
     {
@@ -237,8 +237,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MUSAWWIR",
         "translations" : {
-            "english": "The Fashioner",
-            "urdu"   : ""
+            "en": "The Shaper of Beauty",
+            "ur"   : "صورتیں بنانے والا"
         }
     },
     {
@@ -247,8 +247,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-GHAFFAR",
         "translations" : {
-            "english": "The All- and Oft-Forgiving",
-            "urdu"   : ""
+            "en": "The All- and Oft-Forgiving",
+            "ur"   : "بخشنے والا"
         }
     },
     {
@@ -257,8 +257,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-QAHHAR",
         "translations" : {
-            "english": "The Subduer, The Ever-Dominating",
-            "urdu"   : ""
+            "en": "The Subduer, The Ever-Dominating",
+            "ur"   : " دباءو والا"
         }
     },
     {
@@ -267,8 +267,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-WAHHAAB",
         "translations" : {
-            "english": "The Giver of Gifts",
-            "urdu"   : ""
+            "en": "The Giver of Gifts",
+            "ur"   : "سب کچھ عطا کرنے والا"
         }
     },
     {
@@ -277,8 +277,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AR-RAZZAAQ",
         "translations" : {
-            "english": "The Provider",
-            "urdu"   : ""
+            "en": "The Provider",
+            "ur"   : "روزی دینے والا"
         }
     },
     {
@@ -287,8 +287,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-FATTAAH",
         "translations" : {
-            "english": "The Opener, The Judge",
-            "urdu"   : ""
+            "en": "The Opener, The Judge",
+            "ur"   : "کھولنے والا"
         }
     },
     {
@@ -297,8 +297,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-ALEEM",
         "translations" : {
-            "english": "The All-Knowing, The Omniscient",
-            "urdu"   : ""
+            "en": "The All-Knowing, The Omniscient",
+            "ur"   : "جاننے والا"
         }
     },
     {
@@ -307,8 +307,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "transliteration": "AL-QAABID",
         "translations" : {
-            "english": "The Withholder",
-            "urdu"   : ""
+            "en": "The Withholder",
+            "ur"   : "تنگ کرنے والا"
         }
     },
     {
@@ -317,19 +317,19 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BAASIT",
         "translations" : {
-            "english" : "The Extender",
-            "urdu" : ""
+            "en" : "The Extender",
+            "ur" : "کشادہ کرنے والا"
         }
     },
-    
+
     {
         "id" : 10122,
         "content" : "ٱلْخَافِضُ",
         "category": ['asma-ul-husna'],
         "translationss" : "AL-KHAAFIDH",
         "translations" : {
-            "english" : "The Reducer, The Abaser",
-            "urdu" : ""
+            "en" : "The Reducer, The Abaser",
+            "ur" : "پست کرنے والا"
         }
     },
     {
@@ -338,8 +338,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AR-RAAFI’",
         "translations" : {
-            "english" : "The Exalter, The Elevator",
-            "urdu" : ""
+            "en" : "The Exalter, The Elevator",
+            "ur" : "بلند کرنے والا"
         }
     },
     {
@@ -348,8 +348,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MU’IZZ",
         "translations" : {
-            "english" : "The Honourer, The Bestower",
-            "urdu" : ""
+            "en" : "The Honourer, The Bestower",
+            "ur" : "عزت دینے والا"
         }
     },
     {
@@ -358,8 +358,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUZIL",
         "translations" : {
-            "english" : "The Dishonourer, The Humiliator",
-            "urdu" : ""
+            "en" : "The Dishonourer, The Humiliator",
+            "ur" : "ذلیل کرنے والا"
         }
     },
     {
@@ -368,8 +368,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AS-SAMEE’",
         "translations" : {
-            "english" : "The All-Hearing",
-            "urdu" : ""
+            "en" : "The All-Hearing",
+            "ur" : "خوب سننے والا"
         }
     },
     {
@@ -378,8 +378,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BASEER",
         "translations" : {
-            "english" : "The All-Seeing",
-            "urdu" : ""
+            "en" : "The All-Seeing",
+            "ur" : "خوب دیکھنے والا"
         }
     },
     {
@@ -388,8 +388,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HAKAM",
         "translations" : {
-            "english" : "The Judge, The Giver of Justice",
-            "urdu" : ""
+            "en" : "The Judge, The Giver of Justice",
+            "ur" : "فیصلہ کرنے وال"
         }
     },
     {
@@ -398,8 +398,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-‘ADL",
         "translations" : {
-            "english" : "The Utterly Just",
-            "urdu" : ""
+            "en" : "The Utterly Just",
+            "ur" : "انصاف کرنے والا"
         }
     },
     {
@@ -408,8 +408,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-LATEEF",
         "translations" : {
-            "english" : "The Subtle One, The Most Gentle",
-            "urdu" : ""
+            "en" : "The Subtle One, The Most Gentle",
+            "ur" : "مہربان"
         }
     },
     {
@@ -418,8 +418,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-KHABEER",
         "translations" : {
-            "english" : "The Acquainted, the All-Aware",
-            "urdu" : ""
+            "en" : "The Acquainted, the All-Aware",
+            "ur" : "خبر رکھنے والا"
         }
     },
     {
@@ -428,8 +428,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HALEEM",
         "translations" : {
-            "english" : "The Most Forbearing",
-            "urdu" : ""
+            "en" : "The Most Forbearing",
+            "ur" : "بردبار"
         }
     },
     {
@@ -438,8 +438,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-‘ATHEEM",
         "translations" : {
-            "english" : "The Magnificent, The Supreme",
-            "urdu" : ""
+            "en" : "The Magnificent, The Supreme",
+            "ur" : "بہت عظمت والا"
         }
     },
     {
@@ -448,8 +448,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-GHAFOOR",
         "translations" : {
-            "english" : "The Forgiving, The Exceedingly Forgiving",
-            "urdu" : ""
+            "en" : "The Forgiving, The Exceedingly Forgiving",
+            "ur" : "خوب بخش دینے والا"
         }
     },
     {
@@ -458,8 +458,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "ASH-SHAKOOR",
         "translations" : {
-            "english" : "The Most Appreciative",
-            "urdu" : ""
+            "en" : "The Most Appreciative",
+            "ur" : "قدر دان"
         }
     },
     {
@@ -468,8 +468,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-‘ALEE",
         "translations" : {
-            "english" : "The Most High, The Exalted",
-            "urdu" : ""
+            "en" : "The Most High, The Exalted",
+            "ur" : "بلندی والا"
         }
     },
     {
@@ -478,18 +478,18 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-KABEER",
         "translations" : {
-            "english" : "The Greatest, The Most Grand",
-            "urdu" : ""
+            "en" : "The Greatest, The Most Grand",
+            "ur" : "بہت بڑا"
         }
     },
     {
         "id" : 10138,
         "content" : "ٱلْحَفِيظُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAFEEDH",
+        "translationss" : "AL-HAFIZ",
         "translations" : {
-            "english" : "The Preserver, The All-Heedful and All-Protecting",
-            "urdu" : ""
+            "en" : "The Preserver, The All-Heedful and All-Protecting",
+            "ur" : "حفاظت کرنے والا"
         }
     },
     {
@@ -498,8 +498,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUQEET",
         "translations" : {
-            "english" : "The Sustainer",
-            "urdu" : ""
+            "en" : "The Sustainer",
+            "ur" : "روزی پہنچانے والا"
         }
     },
     {
@@ -508,8 +508,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HASEEB",
         "translations" : {
-            "english" : "The Reckoner, The Sufficient ",
-            "urdu" : ""
+            "en" : "The Reckoner, The Sufficient ",
+            "ur" : "کفایت کرنے وال"
         }
     },
     {
@@ -518,8 +518,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-JALEEL",
         "translations" : {
-            "english" : "The Majestic",
-            "urdu" : ""
+            "en" : "The Majestic",
+            "ur" : "بزرگی والا"
         }
     },
     {
@@ -528,8 +528,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-KAREEM",
         "translations" : {
-            "english" : "The Most Generous, The Most Esteemed",
-            "urdu" : ""
+            "en" : "The Most Generous, The Most Esteemed",
+            "ur" : "عزت والا"
         }
     },
     {
@@ -538,8 +538,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AR-RAQEEB",
         "translations" : {
-            "english" : "The Watchful",
-            "urdu" : ""
+            "en" : "The Watchful",
+            "ur" : "نگہبان"
         }
     },
     {
@@ -548,8 +548,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUJEEB",
         "translations" : {
-            "english" : "The Responsive One",
-            "urdu" : ""
+            "en" : "The Responsive One",
+            "ur" : "قبول کرنے والا"
         }
     },
     {
@@ -558,8 +558,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WAASI’",
         "translations" : {
-            "english" : "The All-Encompassing, the Boundless",
-            "urdu" : ""
+            "en" : "The All-Encompassing, the Boundless",
+            "ur" : "کشائش والا"
         }
     },
     {
@@ -568,8 +568,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HAKEEM",
         "translations" : {
-            "english" : "The All-Wise",
-            "urdu" : ""
+            "en" : "The All-Wise",
+            "ur" : "حکمت والا"
         }
     },
     {
@@ -578,8 +578,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WADOOD",
         "translations" : {
-            "english" : "The Most Loving",
-            "urdu" : ""
+            "en" : "The Most Loving",
+            "ur" : "محبت کرنے والا"
         }
     },
     {
@@ -588,8 +588,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MAJEED",
         "translations" : {
-            "english" : "The Glorious, The Most Honorable",
-            "urdu" : ""
+            "en" : "The Glorious, The Most Honorable",
+            "ur" : "بڑی شان والا"
         }
     },
     {
@@ -598,8 +598,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BA’ITH",
         "translations" : {
-            "english" : "The Resurrector, The Raiser of the Dead",
-            "urdu" : ""
+            "en" : "The Resurrector, The Raiser of the Dead",
+            "ur" : "اُٹھانے والا"
         }
     },
     {
@@ -608,8 +608,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "ASH-SHAHEED",
         "translations" : {
-            "english" : "The All- and Ever Witnessing",
-            "urdu" : ""
+            "en" : "The All- and Ever Witnessing",
+            "ur" : "حاضر"
         }
     },
     {
@@ -618,8 +618,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HAQQ",
         "translations" : {
-            "english" : "The Absolute Truth",
-            "urdu" : ""
+            "en" : "The Absolute Truth",
+            "ur" : "سچا مالک"
         }
     },
     {
@@ -628,8 +628,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WAKEEL",
         "translations" : {
-            "english" : "The Trustee, The Disposer of Affairs",
-            "urdu" : ""
+            "en" : "The Trustee, The Disposer of Affairs",
+            "ur" : "کام بنانے والا"
         }
     },
     {
@@ -638,8 +638,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-QAWIYY",
         "translations" : {
-            "english" : "The All-Strong",
-            "urdu" : ""
+            "en" : "The All-Strong",
+            "ur" : "زور آور"
         }
     },
     {
@@ -648,8 +648,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MATEEN",
         "translations" : {
-            "english" : "The Firm, The Steadfast",
-            "urdu" : ""
+            "en" : "The Firm, The Steadfast",
+            "ur" : "قوت والا"
         }
     },
     {
@@ -658,8 +658,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WALIYY",
         "translations" : {
-            "english" : "The Protecting Associate",
-            "urdu" : ""
+            "en" : "The Protecting Associate",
+            "ur" : "حمایت کرنے والا"
         }
     },
     {
@@ -668,8 +668,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HAMEED",
         "translations" : {
-            "english" : "The Praiseworthy",
-            "urdu" : ""
+            "en" : "The Praiseworthy",
+            "ur" : "خوبیوں والا"
         }
     },
     {
@@ -678,8 +678,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUHSEE",
         "translations" : {
-            "english" : "The All-Enumerating, The Counter",
-            "urdu" : ""
+            "en" : "The All-Enumerating, The Counter",
+            "ur" : "گننے والا"
         }
     },
     {
@@ -688,8 +688,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUBDI",
         "translations" : {
-            "english" : "The Originator, The Initiator",
-            "urdu" : ""
+            "en" : "The Originator, The Initiator",
+            "ur" : "پہلی بار پیدا کرنے والا"
         }
     },
     {
@@ -698,8 +698,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MU’ID",
         "translations" : {
-            "english" : "The Restorer, The Reinstater",
-            "urdu" : ""
+            "en" : "The Restorer, The Reinstater",
+            "ur" : "دوبارہ پیدا کرنے والا"
         }
     },
     {
@@ -708,8 +708,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUHYEE",
         "translations" : {
-            "english" : "The Giver of Life",
-            "urdu" : ""
+            "en" : "The Giver of Life",
+            "ur" : "زندہ کرنے والا"
         }
     },
     {
@@ -718,8 +718,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUMEET",
         "translations" : {
-            "english" : "The Bringer of Death, the Destroyer",
-            "urdu" : ""
+            "en" : "The Bringer of Death, the Destroyer",
+            "ur" : " مارنے والا"
         }
     },
     {
@@ -728,8 +728,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HAYY",
         "translations" : {
-            "english" : "The Ever-Living",
-            "urdu" : ""
+            "en" : "The Ever-Living",
+            "ur" : "زندہ"
         }
     },
     {
@@ -738,8 +738,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-QAYYOOM",
         "translations" : {
-            "english" : "The Sustainer, The Self-Subsisting",
-            "urdu" : ""
+            "en" : "The Sustainer, The Self-Subsisting",
+            "ur" : "سب کا تھامنے والا"
         }
     },
     {
@@ -748,8 +748,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WAAJID",
         "translations" : {
-            "english" : "The Perceiver",
-            "urdu" : ""
+            "en" : "The Perceiver",
+            "ur" : "پانے والا"
         }
     },
     {
@@ -758,8 +758,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MAAJID",
         "translations" : {
-            "english" : "The Illustrious, the Magnificent",
-            "urdu" : ""
+            "en" : "The Illustrious, the Magnificent",
+            "ur" : "عزت والا"
         }
     },
     {
@@ -768,8 +768,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WAAHID",
         "translations" : {
-            "english" : "The One",
-            "urdu" : ""
+            "en" : "The One",
+            "ur" : "ایک"
         }
     },
     {
@@ -778,8 +778,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-AHAD",
         "translations" : {
-            "english" : "The Unique, The Only One ",
-            "urdu" : ""
+            "en" : "The Unique, The Only One ",
+            "ur" : "اکیلا"
         }
     },
     {
@@ -788,8 +788,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AS-SAMAD",
         "translations" : {
-            "english" : "The Eternal, Satisfier of Needs",
-            "urdu" : ""
+            "en" : "The Eternal, Satisfier of Needs",
+            "ur" : "بے نیاز"
         }
     },
     {
@@ -798,8 +798,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-QADEER",
         "translations" : {
-            "english" : "The Capable, The Powerful",
-            "urdu" : ""
+            "en" : "The Capable, The Powerful",
+            "ur" : "قدرت والا"
         }
     },
     {
@@ -808,8 +808,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUQTADIR",
         "translations" : {
-            "english" : "The Omnipotent",
-            "urdu" : ""
+            "en" : "The Omnipotent",
+            "ur" : "مقدور والا"
         }
     },
     {
@@ -818,8 +818,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUQADDIM",
         "translations" : {
-            "english" : "The Expediter, The Promoter",
-            "urdu" : ""
+            "en" : "The Expediter, The Promoter",
+            "ur" : "پیچھے کرنے والا"
         }
     },
     {
@@ -828,8 +828,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MU’AKHKHIR",
         "translations" : {
-            "english" : "The Delayer, the Retarder",
-            "urdu" : ""
+            "en" : "The Delayer, the Retarder",
+            "ur" : "سب سے پہلے"
         }
     },
     {
@@ -838,8 +838,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-AWWAL",
         "translations" : {
-            "english" : "The First ",
-            "urdu" : ""
+            "en" : "The First ",
+            "ur" : "سب سے آخر"
         }
     },
     {
@@ -848,8 +848,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-AAKHIR",
         "translations" : {
-            "english" : "The Last ",
-            "urdu" : ""
+            "en" : "The Last ",
+            "ur" : "ظاہر"
         }
     },
     {
@@ -858,8 +858,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AZ-DHAAHIR",
         "translations" : {
-            "english" : "The Manifest",
-            "urdu" : ""
+            "en" : "The Manifest",
+            "ur" : "پوشیدہ"
         }
     },
     {
@@ -868,8 +868,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BAATIN",
         "translations" : {
-            "english" : "The Hidden One, Knower of the Hidden",
-            "urdu" : ""
+            "en" : "The Hidden One, Knower of the Hidden",
+            "ur" : "مالک"
         }
     },
     {
@@ -878,8 +878,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WAALI",
         "translations" : {
-            "english" : "The Governor, The Patron",
-            "urdu" : ""
+            "en" : "The Governor, The Patron",
+            "ur" : "بلند صفتوں وال"
         }
     },
     {
@@ -888,8 +888,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUTA’ALI",
         "translations" : {
-            "english" : "The Self Exalted",
-            "urdu" : ""
+            "en" : "The Self Exalted",
+            "ur" : "احسان کرنے والا"
         }
     },
     {
@@ -898,8 +898,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BARR",
         "translations" : {
-            "english" : "The Source of Goodness, the Kind Benefactor",
-            "urdu" : ""
+            "en" : "The Source of Goodness, the Kind Benefactor",
+            "ur" : "توبہ قبول کرنے والا"
         }
     },
     {
@@ -908,8 +908,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AT-TAWWAB",
         "translations" : {
-            "english" : "The Ever-Pardoning, The Relenting",
-            "urdu" : ""
+            "en" : "The Ever-Pardoning, The Relenting",
+            "ur" : "بدلہ لینے والا"
         }
     },
     {
@@ -918,8 +918,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUNTAQIM",
         "translations" : {
-            "english" : "The Avenger",
-            "urdu" : ""
+            "en" : "The Avenger",
+            "ur" : "معاف کرنے والا"
         }
     },
     {
@@ -928,8 +928,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-‘AFUWW",
         "translations" : {
-            "english" : "The Pardoner",
-            "urdu" : ""
+            "en" : "The Pardoner",
+            "ur" : "نرمی کرنے والا"
         }
     },
     {
@@ -938,8 +938,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AR-RA’OOF",
         "translations" : {
-            "english" : "The Most Kind",
-            "urdu" : ""
+            "en" : "The Most Kind",
+            "ur" : "بادشاہی کا مالک"
         }
     },
     {
@@ -948,8 +948,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "MAALIK-UL-MULK",
         "translations" : {
-            "english" : "Master of the Kingdom, Owner of the Dominion",
-            "urdu" : ""
+            "en" : "Master of the Kingdom, Owner of the Dominion",
+            "ur" : "جلال والا اور انعام والا"
         }
     },
     {
@@ -958,8 +958,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "DHUL-JALAALI WAL-IKRAAM",
         "translations" : {
-            "english" : "Possessor of Glory and Honour, Lord of Majesty and Generosity",
-            "urdu" : ""
+            "en" : "Possessor of Glory and Honour, Lord of Majesty and Generosity",
+            "ur" : "انصاف کرنے والا"
         }
     },
     {
@@ -968,8 +968,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUQSIT",
         "translations" : {
-            "english" : "The Equitable, the Requiter",
-            "urdu" : ""
+            "en" : "The Equitable, the Requiter",
+            "ur" : "اکھٹا کرنے والا"
         }
     },
     {
@@ -978,8 +978,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-JAAMI’",
         "translations" : {
-            "english" : "The Gatherer, the Uniter",
-            "urdu" : ""
+            "en" : "The Gatherer, the Uniter",
+            "ur" : "بے پروا"
         }
     },
     {
@@ -988,8 +988,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-GHANIYY",
         "translations" : {
-            "english" : "The Self-Sufficient, The Wealthy",
-            "urdu" : ""
+            "en" : "The Self-Sufficient, The Wealthy",
+            "ur" : "بے پروا کرنے والا"
         }
     },
     {
@@ -998,8 +998,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MUGHNI",
         "translations" : {
-            "english" : "The Enricher",
-            "urdu" : ""
+            "en" : "The Enricher",
+            "ur" : ""
         }
     },
     {
@@ -1008,8 +1008,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-MANI’",
         "translations" : {
-            "english" : "The Withholder",
-            "urdu" : ""
+            "en" : "The Withholder",
+            "ur" : "روکنے والا"
         }
     },
     {
@@ -1018,9 +1018,10 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AD-DHARR",
         "translations" : {
-            "english" : "The Distresser",
-            "urdu" : ""
+            "en" : "The Distresser",
+            "ur" : "نقصان پہنچانے والا"
         }
+
     },
     {
         "id" : 10192,
@@ -1028,8 +1029,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AN-NAFI’",
         "translations" : {
-            "english" : "The Propitious, the Benefactor",
-            "urdu" : ""
+            "en" : "The Propitious, the Benefactor",
+            "ur" : "نفع پہنچانے والا"
         }
     },
     {
@@ -1038,8 +1039,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AN-NUR",
         "translations" : {
-            "english" : "The Light, The Illuminator ",
-            "urdu" : ""
+            "en" : "The Light, The Illuminator ",
+            "ur" : "روشن کرنے والا"
         }
     },
     {
@@ -1048,8 +1049,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-HAADI",
         "translations" : {
-            "english" : "The Guide",
-            "urdu" : ""
+            "en" : "The Guide",
+            "ur" : "ہدایت دینے والا"
         }
     },
     {
@@ -1058,8 +1059,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BADEE’",
         "translations" : {
-            "english" : "The Incomparable Originator",
-            "urdu" : ""
+            "en" : "The Incomparable Originator",
+            "ur" : "نئی طرح پیدا کرنے والا"
         }
     },
     {
@@ -1068,8 +1069,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-BAAQI",
         "translations" : {
-            "english" : "The Ever-Surviving, The Everlasting",
-            "urdu" : ""
+            "en" : "The Ever-Surviving, The Everlasting",
+            "ur" : "باقی رہنے والا"
         }
     },
     {
@@ -1078,8 +1079,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AL-WAARITH",
         "translations" : {
-            "english" : "The Inheritor, The Heir",
-            "urdu" : ""
+            "en" : "The Inheritor, The Heir",
+            "ur" : " سب کا وارث"
         }
     },
     {
@@ -1088,8 +1089,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AR-RASHEED",
         "translations" : {
-            "english" : "The Guide, Infallible Teacher",
-            "urdu" : ""
+            "en" : "The Guide, Infallible Teacher",
+            "ur" : "نیک راہ بتانے والا"
         }
     },
     {
@@ -1098,8 +1099,8 @@ window.app['items'] = [
         "category": ['asma-ul-husna'],
         "translationss" : "AS-SABOOR",
         "translations" : {
-            "english" : "The Forbearing, The Patient",
-            "urdu" : ""
+            "en" : "The Forbearing, The Patient",
+            "ur" : "صبر کرنے والا"
         }
-    }
+}
 ];

@@ -13,47 +13,51 @@ window.app['items'] = [
     },
     {
         "id": 10002,
-        "content": "لا اِلٰهَ اِلَّا الله",
+        "content": "لَا اِلٰهَ اِلَّا الله",
         "category": [],
         "transliteration": "",
         "translations" : {
             "en": "",
             "ur"   : ""
         }
+    },
     },
     {
         "id": 10003,
-        "content": "لا اِلٰهَ اِلَّا اللهُ مُحَمَّدُ رَّسُولُ الله",
+        "content": "لَا اِلٰهَ اِلَّا اللهُ مُحَمَّدُ رَّسُولُ الله",
         "category": [],
         "transliteration": "",
         "translations" : {
             "en": "",
             "ur"   : ""
         }
+    },
     },
     {
         "id": 10004,
-        "content": "اللهُ اكبر",
+        "content": "اللهُ اَكْبَرْ",
         "category": [],
         "transliteration": "",
         "translations" : {
             "en": "",
             "ur"   : ""
         }
+    },
     },
     {
         "id": 10005,
-        "content": "سُبْحانَ الله",
+        "content": "سُبْحَانَ الله",
         "category": [],
         "transliteration": "",
         "translations" : {
             "en": "",
             "ur"   : ""
         }
+    },
     },
     {
         "id": 10006,
-        "content": "اَلحَمدُ لله",
+        "content": "اَلْحَمْدُ لله",
         "category": [],
         "transliteration": "",
         "translations" : {
@@ -61,15 +65,17 @@ window.app['items'] = [
             "ur"   : ""
         }
     },
+    },
     {
         "id": 10007,
-        "content": "استَغفِرُ الله",
+        "content": "اَسْتَغْفِرُ الله",
         "category": [],
         "transliteration": "",
         "translations" : {
             "en": "",
             "ur"   : ""
         }
+    },
     },
     {
         "id": 10008,
@@ -93,7 +99,7 @@ window.app['items'] = [
     },
     {
         "id": 10010,
-        "content": "لا حَوْلَ وَلا قُوَّةَ إِلا بِالله",
+        "content": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِالله",
         "category": [],
         "transliteration": "",
         "translations" : {

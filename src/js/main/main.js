@@ -8,7 +8,7 @@ app.random = function () {
         return '';
     }
 
-    return app.items[Math.floor(Math.random() * app.itemCount)];
+    return app.items[Math.floor(Math.random() * app.itemCount)].content;
 }
 
 /**
@@ -55,9 +55,9 @@ app.init = function () {
     var item = app.get(getURLParam('id'));
 
     // Print the chosen Tasbih to DOM
-    app.content.innerHTML = item.content;
-    app.content.title = item.content;
-    app.content.ariaLabel = item.content;
+    app.content.innerHTML = item;
+    app.content.title = item;
+    app.content.ariaLabel = item;
 };
 
 (function () {

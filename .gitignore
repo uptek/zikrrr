@@ -2,6 +2,7 @@
 node_modules
 test/results
 test/coverage
+package-lock.json
 
 # Project
 dist

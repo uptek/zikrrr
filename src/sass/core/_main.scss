@@ -27,18 +27,4 @@ main {
         text-align: center;
         margin-bottom: 20px;
     }
-    .translations_en { 
-        font-family: 'Calibri';
-        @include fluid-type($min_width, $max_width, 18px, 24px);
-        margin-top: 50px;
-        line-height: 1.5;
-        text-align: center;
-    }
-    .translations_ur {
-        font-family: 'Nafees';
-        @include fluid-type($min_width, $max_width, 18px, 30px);
-        margin-top: 50px;
-        line-height: 1.5;
-        text-align: center;
-    }
 }

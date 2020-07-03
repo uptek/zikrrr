@@ -1,14 +1,14 @@
 window.app = (typeof window.app !== 'undefined') ? window.app : {};
 
 window.app['items'] = [
-{
+    {
         "id": 10001,
         "content": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -16,9 +16,9 @@ window.app['items'] = [
         "content": "لَا اِلٰهَ اِلَّا الله",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -26,9 +26,9 @@ window.app['items'] = [
         "content": "لَا اِلٰهَ اِلَّا اللهُ مُحَمَّدُ رَّسُولُ الله",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -36,9 +36,9 @@ window.app['items'] = [
         "content": "اللهُ اَكْبَرْ",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -46,9 +46,9 @@ window.app['items'] = [
         "content": "سُبْحَانَ الله",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -56,9 +56,9 @@ window.app['items'] = [
         "content": "اَلْحَمْدُ لله",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -66,9 +66,9 @@ window.app['items'] = [
         "content": "اَسْتَغْفِرُ الله",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -76,9 +76,9 @@ window.app['items'] = [
         "content": "سُبْحَانَ اللهِ وَ بِحَمْدِهِ",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -86,9 +86,9 @@ window.app['items'] = [
         "content": "سُبْحَانَ اللهِ وَ بِحَمْدِهِ <br> سُبْحَانَ اللهِ الْعَظِيمْ",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
         }
     },
     {
@@ -96,1011 +96,1011 @@ window.app['items'] = [
         "content": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِالله",
         "category": [],
         "transliteration": "",
-        "translations" : {
+        "translations": {
             "en": "",
-            "ur"   : ""
+            "ur": ""
+        }
+    },
+    {
+        "id": 10100,
+        "content": "الله",
+        "category": ['asma-ul-husna'],
+        "transliteration": "ALLAH",
+        "translations": {
+            "en": "The Greatest Name",
+            "ur": "سب سے بڑا نام"
         }
     },
     {
         "id": 10101,
-        "content": " الله",
+        "content": "اَلرَّحْمٰـنُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "ALLAH",
-        "translations" : {
-            "en": "The Greatest Name",
-            "ur"   : "سب سے بڑا نام"
+        "transliteration": "AR-RAHMAAN",
+        "translations": {
+            "en": "The Most Merciful",
+            "ur": "بہت مہربان"
         }
     },
     {
         "id": 10102,
-        "content": "ٱلْرَّحْمَـانُ",
+        "content": "اَلرَّحِيْمُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AR-RAHMAAN",
-        "translations" : {
-            "en": "The Most or Entirely Merciful",
-            "ur"   : "بہت مہربان"
+        "transliteration": "AR-RAHEEM",
+        "translations": {
+            "en": "The Bestower of Mercy",
+            "ur": "نہایت رحم والا"
         }
     },
     {
         "id": 10103,
-        "content": "ٱلْرَّحِيْمُ",
+        "content": "اَ لْمَلِكُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AR-RAHEEM",
-        "translations" : {
-            "en": "The Bestower of Mercy",
-            "ur"   : "نہایت رحم والا"
+        "transliteration": "AL-MALIK",
+        "translations": {
+            "en": "The King and Owner of Dominion",
+            "ur": "بادشاہ"
         }
     },
     {
         "id": 10104,
-        "content": "ٱلْمَلِكُ",
+        "content": "اَ لْقُدُّوسُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AL-MALIK",
-        "translations" : {
-            "en": "The King and Owner of Dominion",
-            "ur"   : "بادشاہ"
+        "transliteration": "AL-QUDDUS",
+        "translations": {
+            "en": "The Absolutely Pure",
+            "ur": "پاک ذات"
         }
     },
     {
         "id": 10105,
-        "content": "ٱلْقُدُّوسُ",
+        "content": "اَ لسَّلَامُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AL-QUDDUS",
-        "translations" : {
-            "en": "The Absolutely Pure",
-            "ur"   : "پاک ذات"
+        "transliteration": "AS-SALAM",
+        "translations": {
+            "en": "The Perfection and Giver of Peace",
+            "ur": "سلامتی والا"
         }
     },
     {
         "id": 10106,
-        "content": "ٱلْسَّلَامُ",
+        "content": "اَ لْمُؤْمِنُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AS-SALAM",
-        "translations" : {
-            "en": "The Perfection and Giver of Peace",
-            "ur"   : "سلامتی والا"
+        "transliteration": "AL-MU’MIN",
+        "translations": {
+            "en": "The One Who gives Emaan and Security",
+            "ur": "امن دینے والا"
         }
     },
     {
         "id": 10107,
-        "content": "ٱلْمُؤْمِنُ",
+        "content": "اَ لْمُهَيْمِنُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AL-MU’MIN",
-        "translations" : {
-            "en": "The One Who gives Emaan and Security",
-            "ur"   : "امن دینے والا"
+        "transliteration": "AL-MUHAYMIN",
+        "translations": {
+            "en": "The Guardian, The Witness, The Overseer",
+            "ur": "نگرانی کرنے والا"
         }
     },
     {
         "id": 10108,
-        "content": "ٱلْمُهَيْمِنُ",
+        "content": "اَ لْعَزِيزُ",
         "category": ['asma-ul-husna'],
-        "transliteration": "AL-MUHAYMIN",
-        "translations" : {
-            "en": "The Guardian, The Witness, The Overseer",
-            "ur"   : "نگرانی کرنے والا"
+        "transliteration": "AL-AZEEZ",
+        "translations": {
+            "en": "The All Mighty",
+            "ur": "غالب"
         }
     },
     {
         "id": 10109,
-        "content": "ٱلْعَزِيزُ",
-        "category": ['asma-ul-husna'],
-        "transliteration": "AL-AZEEZ",
-        "translations" : {
-            "en": "The All Mighty",
-            "ur"   : "غالب"
-        }
-    },
-    {
-        "id": 10110,
-        "content": "ٱلْجَبَّارُ",
+        "content": "اَ لْجَبَّارُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-JABBAR",
-        "translations" : {
+        "translations": {
             "en": "The Compeller, The Restorer",
-            "ur"   : "زبردست"
+            "ur": "زبردست"
         }
     },
     {
         "id": 10110,
-        "content": "ٱلْمُتَكَبِّرُ",
+        "content": "اَ لْمُتَكَبِّرُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MUTAKABBIR",
-        "translations" : {
+        "translations": {
             "en": "The Supreme, The Majestic",
-            "ur"   : "بڑائی والا"
+            "ur": "بڑائی والا"
         }
     },
     {
         "id": 10111,
-        "content": "ٱلْخَالِقُ",
+        "content": "اَ لْخَالِقُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-KHAALIQ",
-        "translations" : {
+        "translations": {
             "en": "The Creator, The Maker",
-            "ur"   : "بنانے والا"
+            "ur": "بنانے والا"
         }
     },
     {
         "id": 10112,
-        "content": "ٱلْبَارِئُ",
+        "content": "اَ لْبَارِئُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-BAARI",
-        "translations" : {
+        "translations": {
             "en": "The Maker of Order",
-            "ur"   : "پیدا کرنے والا"
+            "ur": "پیدا کرنے والا"
         }
     },
     {
         "id": 10113,
-        "content": "ٱلْمُصَوِّرُ",
+        "content": "اَ لْمُصَوِّرُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-MUSAWWIR",
-        "translations" : {
+        "translations": {
             "en": "The Shaper of Beauty",
-            "ur"   : "صورتیں بنانے والا"
+            "ur": "صورتیں بنانے والا"
         }
     },
     {
         "id": 10114,
-        "content": "ٱلْغَفَّارُ",
+        "content": "اَ لْغَفَّارُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-GHAFFAR",
-        "translations" : {
+        "translations": {
             "en": "The All- and Oft-Forgiving",
-            "ur"   : "بخشنے والا"
+            "ur": "بخشنے والا"
         }
     },
     {
         "id": 10115,
-        "content": "ٱلْقَهَّارُ",
+        "content": "اَ لْقَهَّارُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-QAHHAR",
-        "translations" : {
+        "translations": {
             "en": "The Subduer, The Ever-Dominating",
-            "ur"   : " دباءو والا"
+            "ur": " دباءو والا"
         }
     },
     {
         "id": 10116,
-        "content": "ٱلْوَهَّابُ",
+        "content": "اَ لْوَهَّابُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-WAHHAAB",
-        "translations" : {
+        "translations": {
             "en": "The Giver of Gifts",
-            "ur"   : "سب کچھ عطا کرنے والا"
+            "ur": "سب کچھ عطا کرنے والا"
         }
     },
     {
         "id": 10117,
-        "content": "ٱلْرَّزَّاقُ",
+        "content": "اَ لْرَّزَّاقُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AR-RAZZAAQ",
-        "translations" : {
+        "translations": {
             "en": "The Provider",
-            "ur"   : "روزی دینے والا"
+            "ur": "روزی دینے والا"
         }
     },
     {
         "id": 10118,
-        "content": "ٱلْفَتَّاحُ",
+        "content": "اَ لْفَتَّاحُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-FATTAAH",
-        "translations" : {
+        "translations": {
             "en": "The Opener, The Judge",
-            "ur"   : "کھولنے والا"
+            "ur": "کھولنے والا"
         }
     },
     {
         "id": 10119,
-        "content": "ٱلْعَلِيمُ",
+        "content": "اَ لْعَلِيمُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-ALEEM",
-        "translations" : {
+        "translations": {
             "en": "The All-Knowing, The Omniscient",
-            "ur"   : "جاننے والا"
+            "ur": "جاننے والا"
         }
     },
     {
         "id": 10120,
-        "content": "ٱلْقَابِضُ",
+        "content": "اَ لْقَابِضُ",
         "category": ['asma-ul-husna'],
         "transliteration": "AL-QAABID",
-        "translations" : {
+        "translations": {
             "en": "The Withholder",
-            "ur"   : "تنگ کرنے والا"
+            "ur": "تنگ کرنے والا"
         }
     },
     {
-        "id" : 10121,
-        "content" : "ٱلْبَاسِطُ",
+        "id": 10121,
+        "content": "اَ لْبَاسِطُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BAASIT",
-        "translations" : {
-            "en" : "The Extender",
-            "ur" : "کشادہ کرنے والا"
+        "translationss": "AL-BAASIT",
+        "translations": {
+            "en": "The Extender",
+            "ur": "کشادہ کرنے والا"
         }
     },
 
     {
-        "id" : 10122,
-        "content" : "ٱلْخَافِضُ",
+        "id": 10122,
+        "content": "اَ لْخَافِضُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-KHAAFIDH",
-        "translations" : {
-            "en" : "The Reducer, The Abaser",
-            "ur" : "پست کرنے والا"
+        "translationss": "AL-KHAAFIDH",
+        "translations": {
+            "en": "The Reducer, The Abaser",
+            "ur": "پست کرنے والا"
         }
     },
     {
-        "id" : 10123,
-        "content" : "ٱلْرَّافِعُ",
+        "id": 10123,
+        "content": "اَ لرَّافِعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AR-RAAFI’",
-        "translations" : {
-            "en" : "The Exalter, The Elevator",
-            "ur" : "بلند کرنے والا"
+        "translationss": "AR-RAAFI’",
+        "translations": {
+            "en": "The Exalter, The Elevator",
+            "ur": "بلند کرنے والا"
         }
     },
     {
-        "id" : 10124,
-        "content" : "ٱلْمُعِزُّ",
+        "id": 10124,
+        "content": "اَ لْمُعِزُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MU’IZZ",
-        "translations" : {
-            "en" : "The Honourer, The Bestower",
-            "ur" : "عزت دینے والا"
+        "translationss": "AL-MU’IZZ",
+        "translations": {
+            "en": "The Honourer, The Bestower",
+            "ur": "عزت دینے والا"
         }
     },
     {
-        "id" : 10125,
-        "content" : "ٱلْمُذِلُّ",
+        "id": 10125,
+        "content": "اَ لْمُذِلُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUZIL",
-        "translations" : {
-            "en" : "The Dishonourer, The Humiliator",
-            "ur" : "ذلیل کرنے والا"
+        "translationss": "AL-MUZIL",
+        "translations": {
+            "en": "The Dishonourer, The Humiliator",
+            "ur": "ذلیل کرنے والا"
         }
     },
     {
-        "id" : 10126,
-        "content" : "ٱلْسَّمِيعُ",
+        "id": 10126,
+        "content": "اَ لْسَّمِيعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AS-SAMEE’",
-        "translations" : {
-            "en" : "The All-Hearing",
-            "ur" : "خوب سننے والا"
+        "translationss": "AS-SAMEE’",
+        "translations": {
+            "en": "The All-Hearing",
+            "ur": "خوب سننے والا"
         }
     },
     {
-        "id" : 10127,
-        "content" : "ٱلْبَصِيرُ",
+        "id": 10127,
+        "content": "اَ لْبَصِيرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BASEER",
-        "translations" : {
-            "en" : "The All-Seeing",
-            "ur" : "خوب دیکھنے والا"
+        "translationss": "AL-BASEER",
+        "translations": {
+            "en": "The All-Seeing",
+            "ur": "خوب دیکھنے والا"
         }
     },
     {
-        "id" : 10128,
-        "content" : "ٱلْحَكَمُ",
+        "id": 10128,
+        "content": "اَ لْحَكَمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAKAM",
-        "translations" : {
-            "en" : "The Judge, The Giver of Justice",
-            "ur" : "فیصلہ کرنے وال"
+        "translationss": "AL-HAKAM",
+        "translations": {
+            "en": "The Judge, The Giver of Justice",
+            "ur": "فیصلہ کرنے وال"
         }
     },
     {
-        "id" : 10129,
-        "content" : "ٱلْعَدْلُ",
+        "id": 10129,
+        "content": "اَ لْعَدْلُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-‘ADL",
-        "translations" : {
-            "en" : "The Utterly Just",
-            "ur" : "انصاف کرنے والا"
+        "translationss": "AL-‘ADL",
+        "translations": {
+            "en": "The Utterly Just",
+            "ur": "انصاف کرنے والا"
         }
     },
     {
-        "id" : 10130,
-        "content" : "ٱلْلَّطِيفُ",
+        "id": 10130,
+        "content": "اَ للَّطِيفُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-LATEEF",
-        "translations" : {
-            "en" : "The Subtle One, The Most Gentle",
-            "ur" : "مہربان"
+        "translationss": "AL-LATEEF",
+        "translations": {
+            "en": "The Subtle One, The Most Gentle",
+            "ur": "مہربان"
         }
     },
     {
-        "id" : 10131,
-        "content" : "ٱلْخَبِيرُ",
+        "id": 10131,
+        "content": "اَ لْخَبِيرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-KHABEER",
-        "translations" : {
-            "en" : "The Acquainted, the All-Aware",
-            "ur" : "خبر رکھنے والا"
+        "translationss": "AL-KHABEER",
+        "translations": {
+            "en": "The Acquainted, the All-Aware",
+            "ur": "خبر رکھنے والا"
         }
     },
     {
-        "id" : 10132,
-        "content" : "ٱلْحَلِيمُ",
+        "id": 10132,
+        "content": "اَ لْحَلِيمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HALEEM",
-        "translations" : {
-            "en" : "The Most Forbearing",
-            "ur" : "بردبار"
+        "translationss": "AL-HALEEM",
+        "translations": {
+            "en": "The Most Forbearing",
+            "ur": "بردبار"
         }
     },
     {
-        "id" : 10133,
-        "content" : "ٱلْعَظِيمُ",
+        "id": 10133,
+        "content": "اَ لْعَظِيمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-‘ATHEEM",
-        "translations" : {
-            "en" : "The Magnificent, The Supreme",
-            "ur" : "بہت عظمت والا"
+        "translationss": "AL-‘ATHEEM",
+        "translations": {
+            "en": "The Magnificent, The Supreme",
+            "ur": "بہت عظمت والا"
         }
     },
     {
-        "id" : 10134,
-        "content" : "ٱلْغَفُورُ",
+        "id": 10134,
+        "content": "اَ لْغَفُورُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-GHAFOOR",
-        "translations" : {
-            "en" : "The Forgiving, The Exceedingly Forgiving",
-            "ur" : "خوب بخش دینے والا"
+        "translationss": "AL-GHAFOOR",
+        "translations": {
+            "en": "The Forgiving, The Exceedingly Forgiving",
+            "ur": "خوب بخش دینے والا"
         }
     },
     {
-        "id" : 10135,
-        "content" : "ٱلْشَّكُورُ",
+        "id": 10135,
+        "content": "اَ لشَّكُورُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "ASH-SHAKOOR",
-        "translations" : {
-            "en" : "The Most Appreciative",
-            "ur" : "قدر دان"
+        "translationss": "ASH-SHAKOOR",
+        "translations": {
+            "en": "The Most Appreciative",
+            "ur": "قدر دان"
         }
     },
     {
-        "id" : 10136,
-        "content" : "ٱلْعَلِيُّ",
+        "id": 10136,
+        "content": "اَ لْعَلِيُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-‘ALEE",
-        "translations" : {
-            "en" : "The Most High, The Exalted",
-            "ur" : "بلندی والا"
+        "translationss": "AL-‘ALEE",
+        "translations": {
+            "en": "The Most High, The Exalted",
+            "ur": "بلندی والا"
         }
     },
     {
-        "id" : 10137,
-        "content" : "ٱلْكَبِيرُ",
+        "id": 10137,
+        "content": "اَ لْكَبِيرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-KABEER",
-        "translations" : {
-            "en" : "The Greatest, The Most Grand",
-            "ur" : "بہت بڑا"
+        "translationss": "AL-KABEER",
+        "translations": {
+            "en": "The Greatest, The Most Grand",
+            "ur": "بہت بڑا"
         }
     },
     {
-        "id" : 10138,
-        "content" : "ٱلْحَفِيظُ",
+        "id": 10138,
+        "content": "اَ لْحَفِيظُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAFIZ",
-        "translations" : {
-            "en" : "The Preserver, The All-Heedful and All-Protecting",
-            "ur" : "حفاظت کرنے والا"
+        "translationss": "AL-HAFIZ",
+        "translations": {
+            "en": "The Preserver, The All-Heedful and All-Protecting",
+            "ur": "حفاظت کرنے والا"
         }
     },
     {
-        "id" : 10139,
-        "content" : "ٱلْمُقِيتُ",
+        "id": 10139,
+        "content": "اَ لْمُقِيتُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUQEET",
-        "translations" : {
-            "en" : "The Sustainer",
-            "ur" : "روزی پہنچانے والا"
+        "translationss": "AL-MUQEET",
+        "translations": {
+            "en": "The Sustainer",
+            "ur": "روزی پہنچانے والا"
         }
     },
     {
-        "id" : 10140,
-        "content" : "ٱلْحَسِيبُ",
+        "id": 10140,
+        "content": "اَ لْحَسِيبُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HASEEB",
-        "translations" : {
-            "en" : "The Reckoner, The Sufficient ",
-            "ur" : "کفایت کرنے وال"
+        "translationss": "AL-HASEEB",
+        "translations": {
+            "en": "The Reckoner, The Sufficient ",
+            "ur": "کفایت کرنے وال"
         }
     },
     {
-        "id" : 10141,
-        "content" : "ٱلْجَلِيلُ",
+        "id": 10141,
+        "content": "اَ لْجَلِيلُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-JALEEL",
-        "translations" : {
-            "en" : "The Majestic",
-            "ur" : "بزرگی والا"
+        "translationss": "AL-JALEEL",
+        "translations": {
+            "en": "The Majestic",
+            "ur": "بزرگی والا"
         }
     },
     {
-        "id" : 10142,
-        "content" : "ٱلْكَرِيمُ",
+        "id": 10142,
+        "content": "اَ لْكَرِيمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-KAREEM",
-        "translations" : {
-            "en" : "The Most Generous, The Most Esteemed",
-            "ur" : "عزت والا"
+        "translationss": "AL-KAREEM",
+        "translations": {
+            "en": "The Most Generous, The Most Esteemed",
+            "ur": "عزت والا"
         }
     },
     {
-        "id" : 10143,
-        "content" : "ٱلْرَّقِيبُ",
+        "id": 10143,
+        "content": "اَ لْرَّقِيبُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AR-RAQEEB",
-        "translations" : {
-            "en" : "The Watchful",
-            "ur" : "نگہبان"
+        "translationss": "AR-RAQEEB",
+        "translations": {
+            "en": "The Watchful",
+            "ur": "نگہبان"
         }
     },
     {
-        "id" : 10144,
-        "content" : "ٱلْمُجِيبُ",
+        "id": 10144,
+        "content": "اَ لْمُجِيبُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUJEEB",
-        "translations" : {
-            "en" : "The Responsive One",
-            "ur" : "قبول کرنے والا"
+        "translationss": "AL-MUJEEB",
+        "translations": {
+            "en": "The Responsive One",
+            "ur": "قبول کرنے والا"
         }
     },
     {
-        "id" : 10145,
-        "content" : "ٱلْوَاسِعُ",
+        "id": 10145,
+        "content": "اَ لْوَاسِعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WAASI’",
-        "translations" : {
-            "en" : "The All-Encompassing, the Boundless",
-            "ur" : "کشائش والا"
+        "translationss": "AL-WAASI’",
+        "translations": {
+            "en": "The All-Encompassing, the Boundless",
+            "ur": "کشائش والا"
         }
     },
     {
-        "id" : 10146,
-        "content" : "ٱلْحَكِيمُ",
+        "id": 10146,
+        "content": "اَ لْحَكِيمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAKEEM",
-        "translations" : {
-            "en" : "The All-Wise",
-            "ur" : "حکمت والا"
+        "translationss": "AL-HAKEEM",
+        "translations": {
+            "en": "The All-Wise",
+            "ur": "حکمت والا"
         }
     },
     {
-        "id" : 10147,
-        "content" : "ٱلْوَدُودُ",
+        "id": 10147,
+        "content": "اَ لْوَدُودُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WADOOD",
-        "translations" : {
-            "en" : "The Most Loving",
-            "ur" : "محبت کرنے والا"
+        "translationss": "AL-WADOOD",
+        "translations": {
+            "en": "The Most Loving",
+            "ur": "محبت کرنے والا"
         }
     },
     {
-        "id" : 10148,
-        "content" : "ٱلْمَجِيدُ",
+        "id": 10148,
+        "content": "اَ لْمَجِيدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MAJEED",
-        "translations" : {
-            "en" : "The Glorious, The Most Honorable",
-            "ur" : "بڑی شان والا"
+        "translationss": "AL-MAJEED",
+        "translations": {
+            "en": "The Glorious, The Most Honorable",
+            "ur": "بڑی شان والا"
         }
     },
     {
-        "id" : 10149,
-        "content" : "ٱلْبَاعِثُ",
+        "id": 10149,
+        "content": "اَ لْبَاعِثُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BA’ITH",
-        "translations" : {
-            "en" : "The Resurrector, The Raiser of the Dead",
-            "ur" : "اُٹھانے والا"
+        "translationss": "AL-BA’ITH",
+        "translations": {
+            "en": "The Resurrector, The Raiser of the Dead",
+            "ur": "اُٹھانے والا"
         }
     },
     {
-        "id" : 10150,
-        "content" : "ٱلْشَّهِيدُ",
+        "id": 10150,
+        "content": "اَ لشَّهِيدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "ASH-SHAHEED",
-        "translations" : {
-            "en" : "The All- and Ever Witnessing",
-            "ur" : "حاضر"
+        "translationss": "ASH-SHAHEED",
+        "translations": {
+            "en": "The All- and Ever Witnessing",
+            "ur": "حاضر"
         }
     },
     {
-        "id" : 10151,
-        "content" : "ٱلْحَقُّ",
+        "id": 10151,
+        "content": "اَ لْحَقُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAQQ",
-        "translations" : {
-            "en" : "The Absolute Truth",
-            "ur" : "سچا مالک"
+        "translationss": "AL-HAQQ",
+        "translations": {
+            "en": "The Absolute Truth",
+            "ur": "سچا مالک"
         }
     },
     {
-        "id" : 10152,
-        "content" : "ٱلْوَكِيلُ",
+        "id": 10152,
+        "content": "اَ لْوَكِيلُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WAKEEL",
-        "translations" : {
-            "en" : "The Trustee, The Disposer of Affairs",
-            "ur" : "کام بنانے والا"
+        "translationss": "AL-WAKEEL",
+        "translations": {
+            "en": "The Trustee, The Disposer of Affairs",
+            "ur": "کام بنانے والا"
         }
     },
     {
-        "id" : 10153,
-        "content" : "ٱلْقَوِيُّ",
+        "id": 10153,
+        "content": "اَ لْقَوِيُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-QAWIYY",
-        "translations" : {
-            "en" : "The All-Strong",
-            "ur" : "زور آور"
+        "translationss": "AL-QAWIYY",
+        "translations": {
+            "en": "The All-Strong",
+            "ur": "زور آور"
         }
     },
     {
-        "id" : 10154,
-        "content" : "ٱلْمَتِينُ",
+        "id": 10154,
+        "content": "اَ لْمَتِينُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MATEEN",
-        "translations" : {
-            "en" : "The Firm, The Steadfast",
-            "ur" : "قوت والا"
+        "translationss": "AL-MATEEN",
+        "translations": {
+            "en": "The Firm, The Steadfast",
+            "ur": "قوت والا"
         }
     },
     {
-        "id" : 10155,
-        "content" : "ٱلْوَلِيُّ",
+        "id": 10155,
+        "content": "اَ لْوَلِيُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WALIYY",
-        "translations" : {
-            "en" : "The Protecting Associate",
-            "ur" : "حمایت کرنے والا"
+        "translationss": "AL-WALIYY",
+        "translations": {
+            "en": "The Protecting Associate",
+            "ur": "حمایت کرنے والا"
         }
     },
     {
-        "id" : 10156,
-        "content" : "ٱلْحَمِيدُ",
+        "id": 10156,
+        "content": "اَ لْحَمِيدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAMEED",
-        "translations" : {
-            "en" : "The Praiseworthy",
-            "ur" : "خوبیوں والا"
+        "translationss": "AL-HAMEED",
+        "translations": {
+            "en": "The Praiseworthy",
+            "ur": "خوبیوں والا"
         }
     },
     {
-        "id" : 10157,
-        "content" : "ٱلْمُحْصِيُ",
+        "id": 10157,
+        "content": "اَ لْمُحْصِيُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUHSEE",
-        "translations" : {
-            "en" : "The All-Enumerating, The Counter",
-            "ur" : "گننے والا"
+        "translationss": "AL-MUHSEE",
+        "translations": {
+            "en": "The All-Enumerating, The Counter",
+            "ur": "گننے والا"
         }
     },
     {
-        "id" : 10158,
-        "content" : "ٱلْمُبْدِئُ",
+        "id": 10158,
+        "content": "اَ لْمُبْدِئُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUBDI",
-        "translations" : {
-            "en" : "The Originator, The Initiator",
-            "ur" : "پہلی بار پیدا کرنے والا"
+        "translationss": "AL-MUBDI",
+        "translations": {
+            "en": "The Originator, The Initiator",
+            "ur": "پہلی بار پیدا کرنے والا"
         }
     },
     {
-        "id" : 10159,
-        "content" : "ٱلْمُعِيدُ",
+        "id": 10159,
+        "content": "اَ لْمُعِيدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MU’ID",
-        "translations" : {
-            "en" : "The Restorer, The Reinstater",
-            "ur" : "دوبارہ پیدا کرنے والا"
+        "translationss": "AL-MU’ID",
+        "translations": {
+            "en": "The Restorer, The Reinstater",
+            "ur": "دوبارہ پیدا کرنے والا"
         }
     },
     {
-        "id" : 10160,
-        "content" : "ٱلْمُحْيِى",
+        "id": 10160,
+        "content": "اَ لْمُحْيِى",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUHYEE",
-        "translations" : {
-            "en" : "The Giver of Life",
-            "ur" : "زندہ کرنے والا"
+        "translationss": "AL-MUHYEE",
+        "translations": {
+            "en": "The Giver of Life",
+            "ur": "زندہ کرنے والا"
         }
     },
     {
-        "id" : 10161,
-        "content" : "ٱلْمُمِيتُ",
+        "id": 10161,
+        "content": "اَ لْمُمِيتُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUMEET",
-        "translations" : {
-            "en" : "The Bringer of Death, the Destroyer",
-            "ur" : " مارنے والا"
+        "translationss": "AL-MUMEET",
+        "translations": {
+            "en": "The Bringer of Death, the Destroyer",
+            "ur": " مارنے والا"
         }
     },
     {
-        "id" : 10162,
-        "content" : "ٱلْحَىُّ",
+        "id": 10162,
+        "content": "اَ لْحَىُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAYY",
-        "translations" : {
-            "en" : "The Ever-Living",
-            "ur" : "زندہ"
+        "translationss": "AL-HAYY",
+        "translations": {
+            "en": "The Ever-Living",
+            "ur": "زندہ"
         }
     },
     {
-        "id" : 10163,
-        "content" : "ٱلْقَيُّومُ",
+        "id": 10163,
+        "content": "اَ لْقَيُّومُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-QAYYOOM",
-        "translations" : {
-            "en" : "The Sustainer, The Self-Subsisting",
-            "ur" : "سب کا تھامنے والا"
+        "translationss": "AL-QAYYOOM",
+        "translations": {
+            "en": "The Sustainer, The Self-Subsisting",
+            "ur": "سب کا تھامنے والا"
         }
     },
     {
-        "id" : 10164,
-        "content" : "ٱلْوَاجِدُ",
+        "id": 10164,
+        "content": "اَ لْوَاجِدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WAAJID",
-        "translations" : {
-            "en" : "The Perceiver",
-            "ur" : "پانے والا"
+        "translationss": "AL-WAAJID",
+        "translations": {
+            "en": "The Perceiver",
+            "ur": "پانے والا"
         }
     },
     {
-        "id" : 10165,
-        "content" : "ٱلْمَاجِدُ",
+        "id": 10165,
+        "content": "اَ لْمَاجِدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MAAJID",
-        "translations" : {
-            "en" : "The Illustrious, the Magnificent",
-            "ur" : "عزت والا"
+        "translationss": "AL-MAAJID",
+        "translations": {
+            "en": "The Illustrious, the Magnificent",
+            "ur": "عزت والا"
         }
     },
     {
-        "id" : 10166,
-        "content" : "ٱلْوَاحِدُ",
+        "id": 10166,
+        "content": "اَ لْوَاحِدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WAAHID",
-        "translations" : {
-            "en" : "The One",
-            "ur" : "ایک"
+        "translationss": "AL-WAAHID",
+        "translations": {
+            "en": "The One",
+            "ur": "ایک"
         }
     },
     {
-        "id" : 10167,
-        "content" : "ٱلْأَحَد",
+        "id": 10167,
+        "content": "اَ لْاَحَدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-AHAD",
-        "translations" : {
-            "en" : "The Unique, The Only One ",
-            "ur" : "اکیلا"
+        "translationss": "AL-AHAD",
+        "translations": {
+            "en": "The Unique, The Only One ",
+            "ur": "اکیلا"
         }
     },
     {
-        "id" : 10168,
-        "content" : "ٱلْصَّمَدُ",
+        "id": 10168,
+        "content": "اَ لصَّمَدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AS-SAMAD",
-        "translations" : {
-            "en" : "The Eternal, Satisfier of Needs",
-            "ur" : "بے نیاز"
+        "translationss": "AS-SAMAD",
+        "translations": {
+            "en": "The Eternal, Satisfier of Needs",
+            "ur": "بے نیاز"
         }
     },
     {
-        "id" : 10169,
-        "content" : "ٱلْقَادِرُ",
+        "id": 10169,
+        "content": "اَ لْقَادِرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-QADEER",
-        "translations" : {
-            "en" : "The Capable, The Powerful",
-            "ur" : "قدرت والا"
+        "translationss": "AL-QADEER",
+        "translations": {
+            "en": "The Capable, The Powerful",
+            "ur": "قدرت والا"
         }
     },
     {
-        "id" : 10170,
-        "content" : "ٱلْمُقْتَدِرُ",
+        "id": 10170,
+        "content": "اَ لْمُقْتَدِرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUQTADIR",
-        "translations" : {
-            "en" : "The Omnipotent",
-            "ur" : "مقدور والا"
+        "translationss": "AL-MUQTADIR",
+        "translations": {
+            "en": "The Omnipotent",
+            "ur": "مقدور والا"
         }
     },
     {
-        "id" : 10171,
-        "content" : "ٱلْمُقَدِّمُ",
+        "id": 10171,
+        "content": "اَ لْمُقَدِّمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUQADDIM",
-        "translations" : {
-            "en" : "The Expediter, The Promoter",
-            "ur" : "پیچھے کرنے والا"
+        "translationss": "AL-MUQADDIM",
+        "translations": {
+            "en": "The Expediter, The Promoter",
+            "ur": "پیچھے کرنے والا"
         }
     },
     {
-        "id" : 10172,
-        "content" : "ٱلْمُؤَخِّرُ",
+        "id": 10172,
+        "content": "اَ لْمُؤَخِّرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MU’AKHKHIR",
-        "translations" : {
-            "en" : "The Delayer, the Retarder",
-            "ur" : "سب سے پہلے"
+        "translationss": "AL-MU’AKHKHIR",
+        "translations": {
+            "en": "The Delayer, the Retarder",
+            "ur": "سب سے پہلے"
         }
     },
     {
-        "id" : 10173,
-        "content" : "ٱلأَوَّلُ",
+        "id": 10173,
+        "content": "اَ لْاَوَّلُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-AWWAL",
-        "translations" : {
-            "en" : "The First ",
-            "ur" : "سب سے آخر"
+        "translationss": "AL-AWWAL",
+        "translations": {
+            "en": "The First ",
+            "ur": "سب سے آخر"
         }
     },
     {
-        "id" : 10174,
-        "content" : "ٱلْآخِرُ",
+        "id": 10174,
+        "content": "اَ لْآخِرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-AAKHIR",
-        "translations" : {
-            "en" : "The Last ",
-            "ur" : "ظاہر"
+        "translationss": "AL-AAKHIR",
+        "translations": {
+            "en": "The Last ",
+            "ur": "ظاہر"
         }
     },
     {
-        "id" : 10175,
-        "content" : "ٱلْظَّاهِرُ",
+        "id": 10175,
+        "content": "اَ لظَّاهِرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AZ-DHAAHIR",
-        "translations" : {
-            "en" : "The Manifest",
-            "ur" : "پوشیدہ"
+        "translationss": "AZ-DHAAHIR",
+        "translations": {
+            "en": "The Manifest",
+            "ur": "پوشیدہ"
         }
     },
     {
-        "id" : 10176,
-        "content" : "ٱلْبَاطِنُ",
+        "id": 10176,
+        "content": "اَ لْبَاطِنُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BAATIN",
-        "translations" : {
-            "en" : "The Hidden One, Knower of the Hidden",
-            "ur" : "مالک"
+        "translationss": "AL-BAATIN",
+        "translations": {
+            "en": "The Hidden One, Knower of the Hidden",
+            "ur": "مالک"
         }
     },
     {
-        "id" : 10177,
-        "content" : "ٱلْوَالِي",
+        "id": 10177,
+        "content": "اَ لْوَالِي",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WAALI",
-        "translations" : {
-            "en" : "The Governor, The Patron",
-            "ur" : "بلند صفتوں وال"
+        "translationss": "AL-WAALI",
+        "translations": {
+            "en": "The Governor, The Patron",
+            "ur": "بلند صفتوں وال"
         }
     },
     {
-        "id" : 10178,
-        "content" : "ٱلْمُتَعَالِي",
+        "id": 10178,
+        "content": "اَ لْمُتَعَالِي",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUTA’ALI",
-        "translations" : {
-            "en" : "The Self Exalted",
-            "ur" : "احسان کرنے والا"
+        "translationss": "AL-MUTA’ALI",
+        "translations": {
+            "en": "The Self Exalted",
+            "ur": "احسان کرنے والا"
         }
     },
     {
-        "id" : 10179,
-        "content" : "ٱلْبَرُّ",
+        "id": 10179,
+        "content": "اَ لْبَرُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BARR",
-        "translations" : {
-            "en" : "The Source of Goodness, the Kind Benefactor",
-            "ur" : "توبہ قبول کرنے والا"
+        "translationss": "AL-BARR",
+        "translations": {
+            "en": "The Source of Goodness, the Kind Benefactor",
+            "ur": "توبہ قبول کرنے والا"
         }
     },
     {
-        "id" : 10180,
-        "content" : "ٱلْتَّوَّابُ",
+        "id": 10180,
+        "content": "اَ لتَّوَّابُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AT-TAWWAB",
-        "translations" : {
-            "en" : "The Ever-Pardoning, The Relenting",
-            "ur" : "بدلہ لینے والا"
+        "translationss": "AT-TAWWAB",
+        "translations": {
+            "en": "The Ever-Pardoning, The Relenting",
+            "ur": "بدلہ لینے والا"
         }
     },
     {
-        "id" : 10181,
-        "content" : "ٱلْمُنْتَقِمُ",
+        "id": 10181,
+        "content": "اَ لْمُنْتَقِمُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUNTAQIM",
-        "translations" : {
-            "en" : "The Avenger",
-            "ur" : "معاف کرنے والا"
+        "translationss": "AL-MUNTAQIM",
+        "translations": {
+            "en": "The Avenger",
+            "ur": "معاف کرنے والا"
         }
     },
     {
-        "id" : 10182,
-        "content" : "ٱلْعَفُوُّ",
+        "id": 10182,
+        "content": "اَ لْعَفُوُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-‘AFUWW",
-        "translations" : {
-            "en" : "The Pardoner",
-            "ur" : "نرمی کرنے والا"
+        "translationss": "AL-‘AFUWW",
+        "translations": {
+            "en": "The Pardoner",
+            "ur": "نرمی کرنے والا"
         }
     },
     {
-        "id" : 10183,
-        "content" : "ٱلْرَّؤُفُ",
+        "id": 10183,
+        "content": "اَ لرَّؤُفُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AR-RA’OOF",
-        "translations" : {
-            "en" : "The Most Kind",
-            "ur" : "بادشاہی کا مالک"
+        "translationss": "AR-RA’OOF",
+        "translations": {
+            "en": "The Most Kind",
+            "ur": "بادشاہی کا مالک"
         }
     },
     {
-        "id" : 10184,
-        "content" : "مَالِكُ ٱلْمُلْكُ",
+        "id": 10184,
+        "content": "مَالِكُ ا لْمُلْكِ",
         "category": ['asma-ul-husna'],
-        "translationss" : "MAALIK-UL-MULK",
-        "translations" : {
-            "en" : "Master of the Kingdom, Owner of the Dominion",
-            "ur" : "جلال والا اور انعام والا"
+        "translationss": "MAALIK-UL-MULK",
+        "translations": {
+            "en": "Master of the Kingdom, Owner of the Dominion",
+            "ur": "جلال والا اور انعام والا"
         }
     },
     {
-        "id" : 10185,
-        "content" : "ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ",
+        "id": 10185,
+        "content": "ذُو الْجَلَالِ وَالْإِكْرَامُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "DHUL-JALAALI WAL-IKRAAM",
-        "translations" : {
-            "en" : "Possessor of Glory and Honour, Lord of Majesty and Generosity",
-            "ur" : "انصاف کرنے والا"
+        "translationss": "DHUL-JALAALI WAL-IKRAAM",
+        "translations": {
+            "en": "Possessor of Glory and Honour, Lord of Majesty and Generosity",
+            "ur": "انصاف کرنے والا"
         }
     },
     {
-        "id" : 10186,
-        "content" : "ٱلْمُقْسِطُ",
+        "id": 10186,
+        "content": "اَ لْمُقْسِطُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUQSIT",
-        "translations" : {
-            "en" : "The Equitable, the Requiter",
-            "ur" : "اکھٹا کرنے والا"
+        "translationss": "AL-MUQSIT",
+        "translations": {
+            "en": "The Equitable, the Requiter",
+            "ur": "اکھٹا کرنے والا"
         }
     },
     {
-        "id" : 10187,
-        "content" : "ٱلْجَامِعُ",
+        "id": 10187,
+        "content": "اَ لْجَامِعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-JAAMI’",
-        "translations" : {
-            "en" : "The Gatherer, the Uniter",
-            "ur" : "بے پروا"
+        "translationss": "AL-JAAMI’",
+        "translations": {
+            "en": "The Gatherer, the Uniter",
+            "ur": "بے پروا"
         }
     },
     {
-        "id" : 10188,
-        "content" : "ٱلْغَنيُّ",
+        "id": 10188,
+        "content": "اَ لْغَنِيُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-GHANIYY",
-        "translations" : {
-            "en" : "The Self-Sufficient, The Wealthy",
-            "ur" : "بے پروا کرنے والا"
+        "translationss": "AL-GHANIYY",
+        "translations": {
+            "en": "The Self-Sufficient, The Wealthy",
+            "ur": "بے پروا کرنے والا"
         }
     },
     {
-        "id" : 10189,
-        "content" : "ٱلْمُغْنِيُّ",
+        "id": 10189,
+        "content": "اَ لْمُغْنِيُّ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MUGHNI",
-        "translations" : {
-            "en" : "The Enricher",
-            "ur" : ""
+        "translationss": "AL-MUGHNI",
+        "translations": {
+            "en": "The Enricher",
+            "ur": ""
         }
     },
     {
-        "id" : 10190,
-        "content" : "ٱلْمَانِعُ",
+        "id": 10190,
+        "content": "اَ لْمَانِعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-MANI’",
-        "translations" : {
-            "en" : "The Withholder",
-            "ur" : "روکنے والا"
+        "translationss": "AL-MANI’",
+        "translations": {
+            "en": "The Withholder",
+            "ur": "روکنے والا"
         }
     },
     {
-        "id" : 10191,
-        "content" : "ٱلْضَّارُ",
+        "id": 10191,
+        "content": "اَ لضَّارُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AD-DHARR",
-        "translations" : {
-            "en" : "The Distresser",
-            "ur" : "نقصان پہنچانے والا"
+        "translationss": "AD-DHARR",
+        "translations": {
+            "en": "The Distresser",
+            "ur": "نقصان پہنچانے والا"
         }
 
     },
     {
-        "id" : 10192,
-        "content" : "ٱلْنَّافِعُ",
+        "id": 10192,
+        "content": "اَ لنَّافِعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AN-NAFI’",
-        "translations" : {
-            "en" : "The Propitious, the Benefactor",
-            "ur" : "نفع پہنچانے والا"
+        "translationss": "AN-NAFI’",
+        "translations": {
+            "en": "The Propitious, the Benefactor",
+            "ur": "نفع پہنچانے والا"
         }
     },
     {
-        "id" : 10193,
-        "content" : "ٱلْنُّورُ",
+        "id": 10193,
+        "content": "اَ لنُّورُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AN-NUR",
-        "translations" : {
-            "en" : "The Light, The Illuminator ",
-            "ur" : "روشن کرنے والا"
+        "translationss": "AN-NUR",
+        "translations": {
+            "en": "The Light, The Illuminator ",
+            "ur": "روشن کرنے والا"
         }
     },
     {
-        "id" : 10194,
-        "content" : "ٱلْهَادِي",
+        "id": 10194,
+        "content": "اَ لْهَادِيُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-HAADI",
-        "translations" : {
-            "en" : "The Guide",
-            "ur" : "ہدایت دینے والا"
+        "translationss": "AL-HAADI",
+        "translations": {
+            "en": "The Guide",
+            "ur": "ہدایت دینے والا"
         }
     },
     {
-        "id" : 10195,
-        "content" : "ٱلْبَدِيعُ",
+        "id": 10195,
+        "content": "اَ لْبَدِيْعُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BADEE’",
-        "translations" : {
-            "en" : "The Incomparable Originator",
-            "ur" : "نئی طرح پیدا کرنے والا"
+        "translationss": "AL-BADEE’",
+        "translations": {
+            "en": "The Incomparable Originator",
+            "ur": "نئی طرح پیدا کرنے والا"
         }
     },
     {
-        "id" : 10196,
-        "content" : "ٱلْبَاقِي",
+        "id": 10196,
+        "content": "اَ لْبَاقِي",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-BAAQI",
-        "translations" : {
-            "en" : "The Ever-Surviving, The Everlasting",
-            "ur" : "باقی رہنے والا"
+        "translationss": "AL-BAAQI",
+        "translations": {
+            "en": "The Ever-Surviving, The Everlasting",
+            "ur": "باقی رہنے والا"
         }
     },
     {
-        "id" : 10197,
-        "content" : "ٱلْوَارِثُ",
+        "id": 10197,
+        "content": "اَ لْوَارِثُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AL-WAARITH",
-        "translations" : {
-            "en" : "The Inheritor, The Heir",
-            "ur" : " سب کا وارث"
+        "translationss": "AL-WAARITH",
+        "translations": {
+            "en": "The Inheritor, The Heir",
+            "ur": " سب کا وارث"
         }
     },
     {
-        "id" : 10198,
-        "content" : "ٱلْرَّشِيدُ",
+        "id": 10198,
+        "content": "اَ لرَّشِيْدُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AR-RASHEED",
-        "translations" : {
-            "en" : "The Guide, Infallible Teacher",
-            "ur" : "نیک راہ بتانے والا"
+        "translationss": "AR-RASHEED",
+        "translations": {
+            "en": "The Guide, Infallible Teacher",
+            "ur": "نیک راہ بتانے والا"
         }
     },
     {
-        "id" : 10199,
-        "content" : "ٱلْصَّبُورُ",
+        "id": 10199,
+        "content": "اَ لصَّبُوْرُ",
         "category": ['asma-ul-husna'],
-        "translationss" : "AS-SABOOR",
-        "translations" : {
-            "en" : "The Forbearing, The Patient",
-            "ur" : "صبر کرنے والا"
+        "translationss": "AS-SABOOR",
+        "translations": {
+            "en": "The Forbearing, The Patient",
+            "ur": "صبر کرنے والا"
         }
-}
+    }
 ];

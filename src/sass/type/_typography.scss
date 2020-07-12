@@ -1,8 +1,12 @@
+// @font-face {
+//     font-family: 'Al Qalam Quran';
+//     src: local('AlQalamQuran'), local('AlQalamQuranFont'),
+//         url('../fonts/AlQalamQuran/AlQalamQuran.woff2') format('woff2'),
+//         url('../fonts/AlQalamQuran/AlQalamQuran.woff') format('woff');
+// }
+
 @font-face {
-    font-family: 'Al Qalam Quran';
-    src: local('Al Qalam Quran'), local('AlQalamQuran'),
-        url('../fonts/AlQalamQuran/AlQalamQuran.woff2') format('woff2'),
-        url('../fonts/AlQalamQuran/AlQalamQuran.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'AlMajeedQuranic';
+    src: local('AlMajeedQuranic'),
+        url('../fonts/alquran/AlMajeedQuranic.woff') format('woff');
 }

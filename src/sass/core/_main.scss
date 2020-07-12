@@ -9,16 +9,23 @@
 main {
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 5%;
+    display: flex;
+    align-items: center;
+
+    div {
+        width: 100%;
+        height: auto;
+    }
 
     .content {
-        font-family: 'Al Qalam Quran';
+        font-family: 'AlMajeedQuranic';
+        // font-family: 'Al Qalam Quran';
         @include fluid-type($min_width, $max_width, $min_font, $max_font);
-
+        margin-top: -130px;
         line-height: 1.5;
         text-align: center;
+        margin-bottom: 20px;
     }
 }

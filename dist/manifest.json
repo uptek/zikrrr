@@ -1,5 +1,4 @@
 {
-
     "manifest_version": 2,
   
     "author": "Uptek",
@@ -10,5 +9,11 @@
 
     "chrome_url_overrides" : {
         "newtab": "index.html"
+    },
+
+    "icons": {
+        "16": "assets/favicon/icon16.png",
+        "48": "assets/favicon/icon48.png",
+       "128": "assets/favicon/icon128.png"
     }
   }

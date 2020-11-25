@@ -3,6 +3,11 @@
 	"version": "0.6.0",
 	"description": "Recite random tasbih on the go",
 	"main": "./dist/app.js",
+	"scripts": {
+		"start": "npm run watch",
+		"build": "gulp",
+		"watch": "gulp watch"
+	},
 	"author": {
 		"name": "Junaid Ahmed",
 		"url": "https://junaidahmed.com"

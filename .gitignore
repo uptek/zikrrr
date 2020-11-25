@@ -5,7 +5,8 @@ test/coverage
 package-lock.json
 
 # Project
-dist
+dist/assets
+dist/*.html
 
 ## OS X
 .DS_Store

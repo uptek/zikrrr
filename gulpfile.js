@@ -110,7 +110,8 @@ var cleanDist = function (done) {
 
 	// Clean the dist folder
 	del.sync([
-		paths.output
+		`${paths.output}/assets`,
+		`${paths.output}*.html`,
 	]);
 
 	// Signal completion

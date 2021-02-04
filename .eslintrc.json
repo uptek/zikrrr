@@ -8,6 +8,8 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
+  "parser": "babel-eslint",
+  "plugins": ["babel"],
   "rules": {
     "prettier/prettier": "error"
   }

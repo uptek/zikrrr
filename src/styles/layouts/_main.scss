@@ -1,0 +1,28 @@
+.app {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  padding: 5%;
+  text-align: center;
+  width: 100%;
+
+  &__container {
+    height: auto;
+    width: 100%;
+  }
+
+  &__content {
+    cursor: default;
+    direction: rtl;
+    font-family: 'AlMajeedQuranic';
+    font-size: 50px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: -130px;
+    text-align: center;
+
+    @media (min-width: 420px) {
+      font-size: calc(50px + 130 * ((100vw - 320px) / 1600));
+    }
+  }
+}

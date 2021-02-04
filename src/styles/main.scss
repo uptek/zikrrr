@@ -1,9 +1,4 @@
-@import 'helpers/variables';
-@import 'helpers/functions';
-@import 'helpers/mixins';
+@import 'base/reset';
+@import 'base/typography';
 
-@import 'type/typography';
-
-@import 'vendors/reset';
-
-@import 'core/main';
+@import 'layouts/main';

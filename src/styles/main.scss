@@ -1,13 +1,9 @@
-// helpers
 @import 'helpers/variables';
 @import 'helpers/functions';
 @import 'helpers/mixins';
 
-// typography
 @import 'type/typography';
 
-// vendors
 @import 'vendors/reset';
 
-// core
 @import 'core/main';

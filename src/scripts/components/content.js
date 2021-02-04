@@ -7,8 +7,6 @@ export const DOMElements = {
 };
 
 export const updateContent = (content) => {
-  console.log(DOMElements, content);
-
   if (typeof content !== 'string' || !DOMElements.content) {
     return;
   }

@@ -41,7 +41,7 @@ module.exports = (_, { mode }) => {
   } else {
     plugins.unshift(
       new MiniCssExtractPlugin({
-        filename: 'styles/[hash].[name].css',
+        filename: 'styles/[name].[hash].css',
       }),
     );
   }

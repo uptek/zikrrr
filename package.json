@@ -1,12 +1,15 @@
 {
-  "name": "boilerplate",
+  "name": "zikrrr",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zikrrr, open a new tab and earn sawab, benefit?",
   "main": "index.js",
   "scripts": {
     "start": "npm run watch",
     "watch": "webpack serve --mode=development",
-    "build": "webpack --mode=production",
+    "build": "npm run lint && webpack --mode=production",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint ./src/**/*.js",
+    "stylelint": "stylelint ./src/styles/**/*.scss",
     "serve": "http-server ./dist -o"
   },
   "keywords": [],

@@ -1,0 +1,9 @@
+{
+  "plugins": ["stylelint-order"],
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "block-no-empty": true,
+    "color-no-invalid-hex": true,
+    "string-quotes": "single"
+  }
+}

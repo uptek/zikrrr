@@ -1,15 +1,2 @@
-# Node
+dist
 node_modules
-test/results
-test/coverage
-package-lock.json
-
-# Project
-dist/assets
-dist/*.html
-
-## OS X
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes

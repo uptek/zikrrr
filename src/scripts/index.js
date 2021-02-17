@@ -1,9 +1,9 @@
-import { Zikrrr } from './classes/Zikrrr';
-import { data } from './lib/data';
+import data from './lib/data.json';
+import { App } from './classes/App';
 import { updateContent } from './components/content';
 
-const zikrrr = new Zikrrr(data);
-
-updateContent(zikrrr.getRandomZikrrr().content);
+const app = new App(data);
+const tasbih = app.getRandom();
+updateContent(tasbih.content);
 
 if (module && module.hot) module.hot.accept();

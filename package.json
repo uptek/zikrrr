@@ -51,7 +51,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "axios": "^0.21.1",
     "lozad": "^1.16.0",
     "redom": "^3.27.1"
   }

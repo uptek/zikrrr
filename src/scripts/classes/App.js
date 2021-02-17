@@ -1,15 +1,17 @@
 import { random } from '../lib/random';
 
-export class Zikrrr {
-  data = [];
-
+export class App {
   constructor(data) {
     this.data = data;
   }
 
-  getRandomZikrrr() {
+  getRandom() {
     return this.data[random(0, this.data.length)];
+  }
+
+  getById(id) {
+    return this.data.find((tasbih) => tasbih.id === id);
   }
 }
 
-export default Zikrrr;
+export default App;

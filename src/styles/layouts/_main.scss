@@ -6,6 +6,11 @@
   text-align: center;
   width: 100%;
 
+  @media (prefers-color-scheme: dark) {
+    background: #202124;
+    color: #ffffff;
+  }
+
   &__container {
     height: auto;
     width: 100%;

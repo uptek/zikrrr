@@ -1,11 +1,9 @@
 {
-  "manifest_version": 2,
-
+  "manifest_version": 3,
+  "version": "1.1",
   "author": "Uptek",
-
-  "name": "Zikrr",
-  "version": "1.0",
-  "description": "Zikrrr, open a new tab and earn sawab, benefit?",
+  "name": "Zikrrr",
+  "description": "Zikrrr, open a new tab and earn sawab/benefit!",
 
   "chrome_url_overrides": {
     "newtab": "index.html"

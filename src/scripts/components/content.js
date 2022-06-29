@@ -12,6 +12,8 @@ export const updateContent = (content) => {
   }
 
   DOMElements.content.innerHTML = content;
+  DOMElements.content.title = content;
+  DOMElements.content.ariaLabel = content;
 };
 
 export default updateContent;

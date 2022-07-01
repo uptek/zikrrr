@@ -1,10 +1,13 @@
 .app {
-  align-items: center;
-  display: flex;
+  width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
   padding: 5%;
   text-align: center;
-  width: 100%;
+  cursor: default;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
 
   @media (prefers-color-scheme: dark) {
     background: #202124;
@@ -17,17 +20,46 @@
   }
 
   &__content {
-    cursor: default;
+    --font-size-min: 5rem;
+    --font-size-max: 11.25rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  &__translation {
+    &--ur,
+    &--en {
+      margin-top: 15px;
+    }
+
+    &--ur {
+      --font-size-min: 1.5625rem;
+      --font-size-max: 2.1875rem;
+      letter-spacing: 0.4px;
+
+      @media screen and (max-width: 419px) {
+        --font-size-min: 1.25rem;
+        --font-size-max: 1.5625rem;
+      }
+    }
+
+    &--en {
+      --font-size-min: 1rem;
+      --font-size-max: 1.25rem;
+      letter-spacing: 1px;
+
+      @media screen and (max-width: 419px) {
+        --font-size-max: 1rem;
+      }
+    }
+  }
+
+  .fluid-font {
+    font-size: clamp(100%, var(--font-size-min) + 5vw, var(--font-size-max));
+  }
+
+  .rtl {
     direction: rtl;
     font-family: 'AlMajeedQuranic';
-    font-size: 50px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-    margin-top: -130px;
-    text-align: center;
-
-    @media (min-width: 420px) {
-      font-size: calc(50px + 130 * ((100vw - 320px) / 1600));
-    }
   }
 }

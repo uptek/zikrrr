@@ -4,6 +4,6 @@ import { updateContent } from './components/content';
 const app = new App();
 const tasbih = app.getRandomTasbih();
 
-updateContent(tasbih.content);
+updateContent(tasbih);
 
 if (module && module.hot) module.hot.accept();

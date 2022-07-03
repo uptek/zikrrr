@@ -2,7 +2,7 @@ import { App } from './classes/App';
 import { updateContent } from './components/content';
 
 const app = new App();
-const tasbih = app.getRandomTasbih();
+const tasbih = app.getTasbihFromURL() || app.getRandomTasbih();
 
 updateContent(tasbih);
 

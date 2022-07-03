@@ -60,6 +60,13 @@
 
   .rtl {
     direction: rtl;
-    font-family: 'AlMajeedQuranic';
+
+    &--arabic {
+      font-family: 'Al Majeed Quranic';
+    }
+
+    &--urdu {
+      font-family: 'Jameel Noori Nastaleeq';
+    }
   }
 }

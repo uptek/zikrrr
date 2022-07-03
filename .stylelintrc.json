@@ -4,6 +4,8 @@
   "rules": {
     "block-no-empty": true,
     "color-no-invalid-hex": true,
-    "string-quotes": "single"
+    "string-quotes": "single",
+    "order/properties-alphabetical-order": null,
+    "max-nesting-depth": 3
   }
 }

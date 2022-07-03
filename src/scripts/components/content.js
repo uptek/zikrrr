@@ -37,7 +37,7 @@ export const updateContent = (tasbih) => {
   DOMElements.container.dataset.id = tasbih.id;
   renderElement(DOMElements.content, tasbih.content);
   renderElement(DOMElements.translationUR, tasbih.translations.ur);
-  renderElement(DOMElements.translationEN, tasbih.translations.en);
+  // renderElement(DOMElements.translationEN, tasbih.translations.en);
 };
 
 export default updateContent;

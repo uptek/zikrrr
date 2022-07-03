@@ -11,6 +11,7 @@
   "parser": "babel-eslint",
   "plugins": ["babel"],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-param-reassign": 0
   }
 }

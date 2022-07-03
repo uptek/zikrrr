@@ -1,5 +1,15 @@
 @font-face {
-  font-family: 'AlMajeedQuranic';
-  src: local('AlMajeedQuranic'),
-    url('./vendors/fonts/alquran/AlMajeedQuranic.woff') format('woff');
+  font-family: 'Al Majeed Quranic';
+  src: url('./vendors/fonts/AlMajeedQuranic/AlMajeedQuranic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jameel Noori Nastaleeq';
+  src: url('./vendors/fonts/JameelNooriNastaleeq/JameelNooriNastaleeq.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

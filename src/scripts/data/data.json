@@ -105,10 +105,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "ALLAH",
+    "transliteration": "Allah",
     "translations": {
-      "en": "The Greatest Name",
-      "ur": "سب سے بڑا نام"
+      "en": "",
+      "ur": ""
     }
   },
   {
@@ -117,10 +117,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RAHMAAN",
+    "transliteration": "Ar Rahmaan",
     "translations": {
-      "en": "The All-Compassionate",
-      "ur": "بہت مہربان"
+      "en": "The Most Gracious",
+      "ur": "انتہائی مہربان"
     }
   },
   {
@@ -129,10 +129,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RAHEEM",
+    "transliteration": "Ar Raheem",
     "translations": {
-      "en": "The All-Merciful",
-      "ur": "نہایت رحم والا"
+      "en": "The Most Merciful",
+      "ur": "انتہائی رحم کرنے والا"
     }
   },
   {
@@ -141,10 +141,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MALIK",
+    "transliteration": "Al Malik",
     "translations": {
-      "en": "The Absolute Ruler",
-      "ur": "بادشاہ"
+      "en": "The Owner",
+      "ur": "مالک، بادشاہ"
     }
   },
   {
@@ -153,10 +153,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-QUDDUS",
+    "transliteration": "Al Qudoos",
     "translations": {
-      "en": "The Pure One",
-      "ur": "پاک ذات"
+      "en": "The Absolutely Pure",
+      "ur": "مقدس، عیبوں سے پاک"
     }
   },
   {
@@ -165,9 +165,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AS-SALAM",
+    "transliteration": "As Salam",
     "translations": {
-      "en": "The Source of Peace",
+      "en": "The Only Provider of Peace",
       "ur": "سلامتی والا"
     }
   },
@@ -177,10 +177,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MU’MIN",
+    "transliteration": "Al Momin",
     "translations": {
-      "en": "The Inspirer of Faith",
-      "ur": "امن دینے والا"
+      "en": "The One Who gives Emaan and Security",
+      "ur": "ایمان عطاء کرنے والا"
     }
   },
   {
@@ -189,10 +189,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUHAYMIN",
+    "transliteration": "Al Muhaimin",
     "translations": {
       "en": "The Guardian",
-      "ur": "نگرانی کرنے والا"
+      "ur": "محافظ"
     }
   },
   {
@@ -201,10 +201,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-AZEEZ",
+    "transliteration": "Al Azeez",
     "translations": {
-      "en": "The Victorious",
-      "ur": "غالب"
+      "en": "The All Mighty",
+      "ur": "عزت دینے والا"
     }
   },
   {
@@ -213,7 +213,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-JABBAR",
+    "transliteration": "Al Jabbaar",
     "translations": {
       "en": "The Compeller",
       "ur": "زبردست"
@@ -225,10 +225,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUTAKABBIR",
+    "transliteration": "Al Mutaqabir",
     "translations": {
-      "en": "The Greatest",
-      "ur": "بڑائی والا"
+      "en": "The Supreme, The Majestic",
+      "ur": "بڑائی والا، بزرگی والا"
     }
   },
   {
@@ -237,10 +237,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-KHAALIQ",
+    "transliteration": "Al Khaliq",
     "translations": {
       "en": "The Creator",
-      "ur": "بنانے والا"
+      "ur": "پیدا کرنے والا"
     }
   },
   {
@@ -249,9 +249,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BAARI",
+    "transliteration": "Al Baari",
     "translations": {
-      "en": "The Maker of Order",
+      "en": "The Originator",
       "ur": "پیدا کرنے والا"
     }
   },
@@ -261,10 +261,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUSAWWIR",
+    "transliteration": "Al Musawir",
     "translations": {
-      "en": "The Shaper of Beauty",
-      "ur": "صورتیں بنانے والا"
+      "en": "The Fashioner",
+      "ur": "صورت بنانے والا"
     }
   },
   {
@@ -273,9 +273,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-GHAFFAR",
+    "transliteration": "Al Ghaffar",
     "translations": {
-      "en": "The Forgiving",
+      "en": "The All Forgiving",
       "ur": "بخشنے والا"
     }
   },
@@ -285,10 +285,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-QAHHAR",
+    "transliteration": "Al Qahhaar",
     "translations": {
       "en": "The Subduer",
-      "ur": " دباءو والا"
+      "ur": "قہر نازل کرنے والا"
     }
   },
   {
@@ -297,10 +297,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAHHAAB",
+    "transliteration": "Al Wahhab",
     "translations": {
       "en": "The Giver of All",
-      "ur": "سب کچھ عطا کرنے والا"
+      "ur": "عطاء کرنے والا"
     }
   },
   {
@@ -309,10 +309,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RAZZAAQ",
+    "transliteration": "Al Razzaq",
     "translations": {
-      "en": "The Sustainer",
-      "ur": "روزی دینے والا"
+      "en": "The Provider",
+      "ur": "رزق دینے والا"
     }
   },
   {
@@ -321,9 +321,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-FATTAAH",
+    "transliteration": "Al Fataah",
     "translations": {
-      "en": "The Opener",
+      "en": "The Opener, The Judge",
       "ur": "کھولنے والا"
     }
   },
@@ -333,10 +333,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-ALEEM",
+    "transliteration": "Al Aleeem",
     "translations": {
       "en": "The All-Knowing",
-      "ur": "جاننے والا"
+      "ur": "علم والا، باخبر"
     }
   },
   {
@@ -345,10 +345,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-QAABID",
+    "transliteration": "Al Qaabiz",
     "translations": {
       "en": "The Withholder",
-      "ur": "تنگ کرنے والا"
+      "ur": "قبض کرنے والا"
     }
   },
   {
@@ -357,10 +357,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BAASIT",
+    "transliteration": "Al Basit",
     "translations": {
-      "en": "The Reliever",
-      "ur": "کشادہ کرنے والا"
+      "en": "The Extender",
+      "ur": "فراخ کرنے والا"
     }
   },
   {
@@ -369,9 +369,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-KHAAFIDH",
+    "transliteration": "Al Khafiz",
     "translations": {
-      "en": "The Reducer, The Abaser",
+      "en": "The Reducer",
       "ur": "پست کرنے والا"
     }
   },
@@ -381,9 +381,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RAAFI’",
+    "transliteration": "Al Rafey",
     "translations": {
-      "en": "The Exalter, The Elevator",
+      "en": "The Elevator",
       "ur": "بلند کرنے والا"
     }
   },
@@ -393,7 +393,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MU’IZZ",
+    "transliteration": "Al Muez",
     "translations": {
       "en": "The Bestower of Honors",
       "ur": "عزت دینے والا"
@@ -405,10 +405,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUZIL",
+    "transliteration": "Al Muzzil",
     "translations": {
       "en": "The Humiliator",
-      "ur": "ذلیل کرنے والا"
+      "ur": "ذلت دینے والا"
     }
   },
   {
@@ -417,10 +417,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AS-SAMEE’",
+    "transliteration": "Al Sami",
     "translations": {
       "en": "The All-Hearing",
-      "ur": "خوب سننے والا"
+      "ur": "سننے والا"
     }
   },
   {
@@ -429,10 +429,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BASEER",
+    "transliteration": "Al Baseer",
     "translations": {
       "en": "The All-Seeing",
-      "ur": "خوب دیکھنے والا"
+      "ur": "دیکھنے والا"
     }
   },
   {
@@ -441,10 +441,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAKAM",
+    "transliteration": "Al Hakam",
     "translations": {
       "en": "The Judge",
-      "ur": "فیصلہ کرنے وال"
+      "ur": "فیصلہ کرنے والا"
     }
   },
   {
@@ -453,9 +453,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-‘ADL",
+    "transliteration": "Al Adal",
     "translations": {
-      "en": "The Just",
+      "en": "The Utterly Just",
       "ur": "انصاف کرنے والا"
     }
   },
@@ -465,7 +465,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-LATEEF",
+    "transliteration": "Al Lateef",
     "translations": {
       "en": "The Subtle One",
       "ur": "مہربان"
@@ -477,7 +477,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-KHABEER",
+    "transliteration": "Al Khabeer",
     "translations": {
       "en": "The All-Aware",
       "ur": "خبر رکھنے والا"
@@ -489,9 +489,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HALEEM",
+    "transliteration": "Al Haleem",
     "translations": {
-      "en": "The Forbearing",
+      "en": "The Most Forbearing",
       "ur": "بردبار"
     }
   },
@@ -501,10 +501,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-‘ATHEEM",
+    "transliteration": "Al Azeem",
     "translations": {
-      "en": "The Magnificent",
-      "ur": "بہت عظمت والا"
+      "en": "The Magnificent, The Supreme",
+      "ur": "عظمت والا، بڑائی والا"
     }
   },
   {
@@ -513,10 +513,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-GHAFOOR",
+    "transliteration": "Al Ghafoor",
     "translations": {
-      "en": "The Forgiver and Hider of Faults",
-      "ur": "خوب بخش دینے والا"
+      "en": "The Forgiving",
+      "ur": "معافی دینے والا"
     }
   },
   {
@@ -525,10 +525,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "ASH-SHAKOOR",
+    "transliteration": "Ash Shakoor",
     "translations": {
       "en": "The Most Appreciative",
-      "ur": "قدر دان"
+      "ur": "قدردان"
     }
   },
   {
@@ -537,10 +537,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-‘ALEE",
+    "transliteration": "Al Alee",
     "translations": {
       "en": "The Highest",
-      "ur": "بلندی والا"
+      "ur": "سب سے افضل"
     }
   },
   {
@@ -549,10 +549,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-KABEER",
+    "transliteration": "Al Kabeer",
     "translations": {
       "en": "The Greatest",
-      "ur": "بہت بڑا"
+      "ur": "بزرگی والا"
     }
   },
   {
@@ -561,7 +561,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAFIZ",
+    "transliteration": "Al Hafeez",
     "translations": {
       "en": "The Preserver",
       "ur": "حفاظت کرنے والا"
@@ -573,10 +573,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUQEET",
+    "transliteration": "Al Muqeet",
     "translations": {
       "en": "The Nourisher",
-      "ur": "روزی پہنچانے والا"
+      "ur": "باقی رہنے والا"
     }
   },
   {
@@ -585,10 +585,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HASEEB",
+    "transliteration": "Al Haseeb",
     "translations": {
-      "en": "The Accounter",
-      "ur": "کفایت کرنے وال"
+      "en": "The Reckoner",
+      "ur": "حساب لینے والا"
     }
   },
   {
@@ -597,10 +597,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-JALEEL",
+    "transliteration": "Al Jaleel",
     "translations": {
       "en": "The Mighty",
-      "ur": "بزرگی والا"
+      "ur": "بزرگ"
     }
   },
   {
@@ -609,10 +609,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-KAREEM",
+    "transliteration": "Al Kareem",
     "translations": {
       "en": "The Most Generous",
-      "ur": "عزت والا"
+      "ur": "کرم کرنے والا"
     }
   },
   {
@@ -621,10 +621,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RAQEEB",
+    "transliteration": "Ar Raqeeb",
     "translations": {
       "en": "The Watchful",
-      "ur": "نگہبان"
+      "ur": "خیال رکھنے والا"
     }
   },
   {
@@ -633,9 +633,9 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUJEEB",
+    "transliteration": "Al Mujeeb",
     "translations": {
-      "en": "The Responder to Prayer",
+      "en": "The Responsive One",
       "ur": "قبول کرنے والا"
     }
   },
@@ -645,10 +645,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAASI’",
+    "transliteration": "Al Waasi",
     "translations": {
-      "en": "The All-Comprehending",
-      "ur": "کشائش والا"
+      "en": "The Boundless",
+      "ur": "لامحدود"
     }
   },
   {
@@ -657,7 +657,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAKEEM",
+    "transliteration": "Al Hakeem",
     "translations": {
       "en": "The All-Wise",
       "ur": "حکمت والا"
@@ -669,7 +669,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WADOOD",
+    "transliteration": "Al Wadood",
     "translations": {
       "en": "The Most Loving",
       "ur": "محبت کرنے والا"
@@ -681,10 +681,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MAJEED",
+    "transliteration": "Al Majeed",
     "translations": {
       "en": "The Glorious, The Most Honorable",
-      "ur": "بڑی شان والا"
+      "ur": "بزرگی والا"
     }
   },
   {
@@ -693,10 +693,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BA’ITH",
+    "transliteration": "Al Ba’is",
     "translations": {
       "en": "The Resurrector",
-      "ur": "اُٹھانے والا"
+      "ur": "اسباب پیدا کرنے والا"
     }
   },
   {
@@ -705,10 +705,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "ASH-SHAHEED",
+    "transliteration": "Ash Shaheed",
     "translations": {
-      "en": "The Witness",
-      "ur": "حاضر"
+      "en": "The All  and Ever Witnessing",
+      "ur": "گواہ"
     }
   },
   {
@@ -717,10 +717,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAQQ",
+    "transliteration": "Al Haqq",
     "translations": {
       "en": "The Absolute Truth",
-      "ur": "سچا مالک"
+      "ur": "سچ"
     }
   },
   {
@@ -729,10 +729,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAKEEL",
+    "transliteration": "Al Wakeel",
     "translations": {
       "en": "The Trustee",
-      "ur": "کام بنانے والا"
+      "ur": "وکیل،کارساز"
     }
   },
   {
@@ -741,10 +741,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-QAWIYY",
+    "transliteration": "Al Qawiyy",
     "translations": {
       "en": "The Possessor of All Strength",
-      "ur": "زور آور"
+      "ur": "سب سے زیادہ طاقتور"
     }
   },
   {
@@ -753,10 +753,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MATEEN",
+    "transliteration": "Al Mateen",
     "translations": {
       "en": "The Firm",
-      "ur": "قوت والا"
+      "ur": "مضبوط، قوت والا"
     }
   },
   {
@@ -765,10 +765,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WALIYY",
+    "transliteration": "Al Waliyy",
     "translations": {
-      "en": "The Governor",
-      "ur": "حمایت کرنے والا"
+      "en": "The Protecting Associate",
+      "ur": "دوست"
     }
   },
   {
@@ -777,10 +777,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAMEED",
+    "transliteration": "Al Hameed",
     "translations": {
       "en": "The Praiseworthy",
-      "ur": "خوبیوں والا"
+      "ur": "تعریف والا"
     }
   },
   {
@@ -789,10 +789,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUHSEE",
+    "transliteration": "Al Muhsee",
     "translations": {
-      "en": "The Appraiser",
-      "ur": "گننے والا"
+      "en": "The All-Enumerating, The Counter",
+      "ur": "شمار کرنے والا"
     }
   },
   {
@@ -801,10 +801,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUBDI",
+    "transliteration": "Al Mubdi",
     "translations": {
       "en": "The Originator",
-      "ur": "پہلی بار پیدا کرنے والا"
+      "ur": "عدم سے عالم کو وجود لانے والا"
     }
   },
   {
@@ -813,10 +813,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MU’ID",
+    "transliteration": "Al Mueed",
     "translations": {
       "en": "The Restorer",
-      "ur": "دوبارہ پیدا کرنے والا"
+      "ur": "پناہ دینے وال"
     }
   },
   {
@@ -825,10 +825,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUHYEE",
+    "transliteration": "Al Muhyee",
     "translations": {
       "en": "The Giver of Life",
-      "ur": "زندہ کرنے والا"
+      "ur": "زندگی دینے والا"
     }
   },
   {
@@ -837,10 +837,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUMEET",
+    "transliteration": "Al Mumeet",
     "translations": {
-      "en": "The Taker of Live",
-      "ur": " مارنے والا"
+      "en": "The Bringer of Death",
+      "ur": "موت دینے والا"
     }
   },
   {
@@ -849,10 +849,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAYY",
+    "transliteration": "Al Hayy",
     "translations": {
-      "en": "The Ever Living One",
-      "ur": "زندہ"
+      "en": "The Ever-Living",
+      "ur": "ہمیشہ رہنے والا"
     }
   },
   {
@@ -861,10 +861,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-QAYYOOM",
+    "transliteration": "Al Qayyoom",
     "translations": {
       "en": "The Self-Existing One",
-      "ur": "سب کا تھامنے والا"
+      "ur": "قائم رہنے والا"
     }
   },
   {
@@ -873,10 +873,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAAJID",
+    "transliteration": "Al Wajid",
     "translations": {
-      "en": "The Finder",
-      "ur": "پانے والا"
+      "en": "The Perceiver",
+      "ur": "حاصل کرنے والا"
     }
   },
   {
@@ -885,10 +885,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MAAJID",
+    "transliteration": "Al Majid",
     "translations": {
-      "en": "The Glorious",
-      "ur": "عزت والا"
+      "en": "The Magnificent",
+      "ur": "بزرگی دینے والا"
     }
   },
   {
@@ -897,10 +897,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAAHID",
+    "transliteration": "Al Wahid",
     "translations": {
       "en": "The One",
-      "ur": "ایک"
+      "ur": "اکیلا"
     }
   },
   {
@@ -909,10 +909,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-AHAD",
+    "transliteration": "Al Ahad",
     "translations": {
       "en": "The Unique, The Only One",
-      "ur": "اکیلا"
+      "ur": "ایک"
     }
   },
   {
@@ -921,10 +921,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AS-SAMAD",
+    "transliteration": "As Samad",
     "translations": {
       "en": "The Satisfier of All Needs",
-      "ur": "بے نیاز"
+      "ur": "بے نیاز، مضبوط"
     }
   },
   {
@@ -933,7 +933,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-QADEER",
+    "transliteration": "Al Qadir",
     "translations": {
       "en": "The All Powerful",
       "ur": "قدرت والا"
@@ -945,10 +945,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUQTADIR",
+    "transliteration": "Al Muqtadir",
     "translations": {
-      "en": "The Creator of All Power",
-      "ur": "مقدور والا"
+      "en": "The Omnipotent",
+      "ur": "اقتدار والا،  قادر مطلق"
     }
   },
   {
@@ -957,10 +957,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUQADDIM",
+    "transliteration": "Al Muqaddim",
     "translations": {
-      "en": "The Expediter",
-      "ur": "پیچھے کرنے والا"
+      "en": "The Expediter, The Promoter",
+      "ur": "آگے کرنے والا"
     }
   },
   {
@@ -969,10 +969,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MU’AKHKHIR",
+    "transliteration": "Al Mu’akhkhir",
     "translations": {
       "en": "The Delayer",
-      "ur": "سب سے پہلے"
+      "ur": "پیچھے کرنے والا"
     }
   },
   {
@@ -981,10 +981,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-AWWAL",
+    "transliteration": "Al Awwal",
     "translations": {
       "en": "The First",
-      "ur": "سب سے آخر"
+      "ur": "پہلا"
     }
   },
   {
@@ -993,10 +993,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-AAKHIR",
+    "transliteration": "Al Akhir",
     "translations": {
       "en": "The Last",
-      "ur": "ظاہر"
+      "ur": "آخر"
     }
   },
   {
@@ -1005,10 +1005,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AZ-DHAAHIR",
+    "transliteration": "Az Zahir",
     "translations": {
       "en": "The Manifest One",
-      "ur": "پوشیدہ"
+      "ur": "ظاہر"
     }
   },
   {
@@ -1017,10 +1017,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BAATIN",
+    "transliteration": "Al Batin",
     "translations": {
-      "en": "The Hidden One",
-      "ur": "مالک"
+      "en": "The Hidden One, Knower of the Hidden",
+      "ur": "چھپا ہوا، باطن کو جاننے والا"
     }
   },
   {
@@ -1029,10 +1029,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAALI",
+    "transliteration": "Al Waali",
     "translations": {
-      "en": "The Protecting Friend",
-      "ur": "بلند صفتوں وال"
+      "en": "The Governor, The Patron",
+      "ur": "سر پرست"
     }
   },
   {
@@ -1041,10 +1041,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUTA’ALI",
+    "transliteration": "Al Muta’ali",
     "translations": {
       "en": "The Supreme One",
-      "ur": "احسان کرنے والا"
+      "ur": "بزرگ"
     }
   },
   {
@@ -1053,10 +1053,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BARR",
+    "transliteration": "Al Barr",
     "translations": {
       "en": "The Kind Benefactor",
-      "ur": "توبہ قبول کرنے والا"
+      "ur": "نیکیوں کا سرچشمہ"
     }
   },
   {
@@ -1065,10 +1065,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AT-TAWWAB",
+    "transliteration": "At Tawwab",
     "translations": {
-      "en": "The Guide to Repentance",
-      "ur": "بدلہ لینے والا"
+      "en": "The Ever-Pardoning, The Relenting",
+      "ur": "توبہ قبول کرنے والا"
     }
   },
   {
@@ -1077,10 +1077,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUNTAQIM",
+    "transliteration": "Al Muntaqim",
     "translations": {
       "en": "The Avenger",
-      "ur": "معاف کرنے والا"
+      "ur": "انتقام لینے والا"
     }
   },
   {
@@ -1089,10 +1089,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-‘AFUWW",
+    "transliteration": "Al ‘Afuww",
     "translations": {
       "en": "The Forgiver",
-      "ur": "نرمی کرنے والا"
+      "ur": "معاف کرنے والا"
     }
   },
   {
@@ -1101,10 +1101,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RA’OOF",
+    "transliteration": "Ar Rauf",
     "translations": {
-      "en": "The Clement",
-      "ur": "بادشاہی کا مالک"
+      "en": "The Most Kind",
+      "ur": "شفقت کرنے ولا"
     }
   },
   {
@@ -1113,10 +1113,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "MAALIK-UL-MULK",
+    "transliteration": "Maalik-ul-Mulk",
     "translations": {
       "en": "The Owner of All",
-      "ur": "جلال والا اور انعام والا"
+      "ur": "دو جہاں کا مالک"
     }
   },
   {
@@ -1125,10 +1125,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "DHUL-JALAALI WAL-IKRAAM",
+    "transliteration": "Zul-Jalaali Wal-Ikraam",
     "translations": {
-      "en": "The Lord of Majesty and Bounty",
-      "ur": "انصاف کرنے والا"
+      "en": "The Lord of Majesty and Generosity",
+      "ur": "جلال اور انعام و اکرام والا"
     }
   },
   {
@@ -1137,10 +1137,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUQSIT",
+    "transliteration": "Al Muqsit",
     "translations": {
       "en": "The Equitable One",
-      "ur": "اکھٹا کرنے والا"
+      "ur": "انصاف کرنے والا"
     }
   },
   {
@@ -1149,10 +1149,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-JAAMI’",
+    "transliteration": "Al Jaami’",
     "translations": {
       "en": "The Gatherer",
-      "ur": "بے پروا"
+      "ur": "جمع کرنے والا"
     }
   },
   {
@@ -1161,10 +1161,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-GHANIYY",
+    "transliteration": "Al Ghaniyy",
     "translations": {
-      "en": "The Wealthy",
-      "ur": "بے پروا کرنے والا"
+      "en": "The Self-Sufficient, The Wealthy",
+      "ur": "بے پرواہ، غنی"
     }
   },
   {
@@ -1173,10 +1173,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MUGHNI",
+    "transliteration": "Al Mughni",
     "translations": {
       "en": "The Enricher",
-      "ur": ""
+      "ur": "بے نیاز"
     }
   },
   {
@@ -1185,10 +1185,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-MANI’",
+    "transliteration": "Al Mani’",
     "translations": {
-      "en": "The Preventer of Harm",
-      "ur": "روکنے والا"
+      "en": "The Withholder",
+      "ur": "باز رکھنے وال"
     }
   },
   {
@@ -1197,10 +1197,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AD-DHARR",
+    "transliteration": "Az Zaar",
     "translations": {
-      "en": "The Distresser",
-      "ur": "نقصان پہنچانے والا"
+      "en": "The Creator of Harm",
+      "ur": "نقصان کا مالک"
     }
   },
   {
@@ -1209,10 +1209,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AN-NAFI’",
+    "transliteration": "An Nafi’",
     "translations": {
       "en": "The Benefactor",
-      "ur": "نفع پہنچانے والا"
+      "ur": "نفع دینے والا"
     }
   },
   {
@@ -1221,10 +1221,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AN-NUR",
+    "transliteration": "An Nur",
     "translations": {
-      "en": "The Light",
-      "ur": "روشن کرنے والا"
+      "en": "The Light, The Illuminator",
+      "ur": "روشن، روشنی دینے والا"
     }
   },
   {
@@ -1233,7 +1233,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-HAADI",
+    "transliteration": "Al Haadi",
     "translations": {
       "en": "The Guide",
       "ur": "ہدایت دینے والا"
@@ -1245,10 +1245,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BADEE’",
+    "transliteration": "Al Badee’",
     "translations": {
-      "en": "The Originator",
-      "ur": "نئی طرح پیدا کرنے والا"
+      "en": "The Incomparable Originator",
+      "ur": "نادر پیدا کرنے والا"
     }
   },
   {
@@ -1257,10 +1257,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-BAAQI",
+    "transliteration": "Al Baaqi",
     "translations": {
       "en": "The Everlasting One",
-      "ur": "باقی رہنے والا"
+      "ur": "ہمیشہ رہنے والا"
     }
   },
   {
@@ -1269,10 +1269,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AL-WAARITH",
+    "transliteration": "Al Waaris",
     "translations": {
-      "en": "The Inheritor of All",
-      "ur": " سب کا وارث"
+      "en": "The Inheritor",
+      "ur": "وارث"
     }
   },
   {
@@ -1281,10 +1281,10 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AR-RASHEED",
+    "transliteration": "Ar Rasheed",
     "translations": {
       "en": "The Righteous Teacher",
-      "ur": "نیک راہ بتانے والا"
+      "ur": "رہنمائی کرنے والا"
     }
   },
   {
@@ -1293,7 +1293,7 @@
     "category": [
       "asma-ul-husna"
     ],
-    "transliteration": "AS-SABOOR",
+    "transliteration": "As Saboor",
     "translations": {
       "en": "The Patient One",
       "ur": "صبر کرنے والا"

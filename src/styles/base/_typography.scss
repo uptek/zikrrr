@@ -1,5 +1,12 @@
 @font-face {
   font-family: 'AlMajeedQuranic';
   src: local('AlMajeedQuranic'),
-    url('./vendors/fonts/alquran/AlMajeedQuranic.woff') format('woff');
+    url('./vendors/fonts/almajeed-quran/AlMajeedQuranic.woff') format('woff'),
+    url('./vendors/fonts/almajeed-quran/AlMajeedQuranic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'AlMajeedQuranic';
+  src: local('AlMajeedQuranic'),
+    url('./vendors/fonts/almajeed-quran/AlMajeedQuranic.woff') format('woff');
 }

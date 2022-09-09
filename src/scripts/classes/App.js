@@ -11,6 +11,12 @@ export class App {
     return this.data[random(0, this.data.length)];
   }
 
+  getTasbishByIndex(i) {
+    if (i < 0 || i >= this.data.length) return false;
+    i = parseInt(i, 10);
+    return this.data[i];
+  }
+
   getTasbihById(id = 0) {
     if (id.isNaN === true) {
       return '';

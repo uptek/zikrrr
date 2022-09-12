@@ -18,7 +18,6 @@ const renderElement = (element, value) => {
   }
 
   if (!value.length) {
-    element.remove();
     return;
   }
 
@@ -33,7 +32,6 @@ export const updateContent = (tasbih) => {
   if (typeof tasbih !== 'object') {
     return;
   }
-
   DOMElements.container.dataset.id = tasbih.id;
   renderElement(DOMElements.content, tasbih.content);
   renderElement(DOMElements.translationUR, tasbih.translations.ur);

@@ -5,10 +5,12 @@ import { getParam } from '../lib/getParam';
 export class App {
   constructor() {
     this.data = data;
+    this.index = 0;
   }
 
   getRandomTasbih() {
-    return this.data[random(0, this.data.length)];
+    this.index = random(0, this.data.length);
+    return this.data[this.index];
   }
 
   getTasbihById(id = 0) {
@@ -19,6 +21,13 @@ export class App {
     id = parseInt(id, 10);
 
     return this.data.find((tasbih) => tasbih.id === id);
+  }
+
+  getTasbishByIndex(i) {
+    if (i < 0 || i >= this.data.length) return false;
+    i = parseInt(i, 10);
+
+    return this.data[i];
   }
 
   getTasbihFromURL() {

@@ -29,82 +29,18 @@
     text-align: center;
   }
 
-  &__info {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin: 0.75rem;
-
-    & a {
-      font-size: smaller;
-      text-decoration: none;
-      color: #fff;
-    }
-  }
-  &__show-info {
-    cursor: pointer;
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 1rem;
-  }
-
-  &__show-options {
-    cursor: pointer;
+  &__options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 0.5rem;
     margin: 1rem;
     position: absolute;
     top: 0;
-    transition: transform 0.3s;
     right: 0;
 
-    &:hover {
-      transform: rotate(45deg);
-    }
-  }
-
-  &__overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    bottom: 0;
-    display: none;
-    left: 0;
-    place-content: center;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 100;
-
-    &__container {
-      background-color: #fff;
-      border-radius: 6px;
-      color: #202124;
-      margin: 20px;
-      padding: 1rem;
-    }
-
-    &__close {
+    svg {
       cursor: pointer;
-      display: flex;
-      justify-content: end;
-    }
-
-    &__option {
-      align-items: center;
-      display: flex;
-      font-weight: lighter;
-      gap: 2rem;
-      justify-content: space-between;
-      margin-top: 2rem;
-      text-align: left;
-      width: 100%;
-
-      @media screen and (max-width:419px) {
-        font-size: small;
-        gap: 0.5rem;
-      }
-    }
-
-    &__option + &__option {
-      margin-top: 0.5rem;
     }
   }
 
@@ -152,53 +88,3 @@
     }
   }
 }
-
-.switch {
-  display: inline-block;
-  height: 20px;
-  position: relative;
-  width: 40px;
-}
-
-.switch input {
-  height: 0;
-  opacity: 0;
-  width: 0;
-}
-
-.slider {
-  background-color: #ccc;
-  border-radius: 20px;
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transition: 0.4s;
-}
-
-.slider::before {
-  background-color: #fff;
-  border-radius: 50%;
-  bottom: 1px;
-  content: '';
-  height: 18px;
-  left: 2px;
-  position: absolute;
-  transition: 0.4s;
-  width: 18px;
-}
-
-input:checked + .slider {
-  background-color: #202124;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #202124;
-}
-
-input:checked + .slider::before {
-  transform: translateX(18px);
-}
-

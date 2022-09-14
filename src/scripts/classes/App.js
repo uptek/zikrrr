@@ -13,20 +13,20 @@ export class App {
     return this.data[this.index];
   }
 
-  getPreviousTasbish() {
+  getPreviousTasbih() {
     if (this.index <= 0) {
       this.index = this.data.length - 1;
     } else {
-      this.index--;
+      this.index -= 1;
     }
     return this.data[this.index];
   }
 
-  getNextTasbish() {
+  getNextTasbih() {
     if (this.index >= this.data.length) {
       this.index = 0;
     } else {
-      this.index++;
+      this.index += 1;
     }
     return this.data[this.index];
   }

@@ -29,6 +29,21 @@
     text-align: center;
   }
 
+  &__options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
   &__translation {
     &--ur,
     &--en {

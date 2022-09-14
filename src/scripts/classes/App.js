@@ -13,6 +13,24 @@ export class App {
     return this.data[this.index];
   }
 
+  getPreviousTasbish() {
+    if (this.index <= 0) {
+      this.index = this.data.length - 1;
+    } else {
+      this.index--;
+    }
+    return this.data[this.index];
+  }
+
+  getNextTasbish() {
+    if (this.index >= this.data.length) {
+      this.index = 0;
+    } else {
+      this.index++;
+    }
+    return this.data[this.index];
+  }
+
   getTasbihById(id = 0) {
     if (id.isNaN === true) {
       return '';

@@ -3,7 +3,6 @@ import { updateContent } from './content';
 const DOMStrings = {
   overlay: '.app__overlay',
   show_options: '.app__show-options',
-  overlay_container: '.app__overlay__container',
   close_options: '.app__overlay__close',
   pause_zikr: '.pause-zikr',
   refresh_hadith: '.refresh-hadith',

@@ -18,8 +18,15 @@ const renderElement = (element, value) => {
   }
 
   if (!value.length) {
+    element.innerHTML = '';
     return;
   }
+
+  const fadeInSlideInAnimation = [
+    { transform: 'translateY(50px)', opacity: '0' },
+    { transform: 'translateY(0px)', opacity: '1' },
+  ];
+  element.animate(fadeInSlideInAnimation, { duration: 600, iterations: 1 });
 
   /* eslint-disable no-param-reassign */
   element.innerHTML = value;

@@ -29,6 +29,26 @@
     text-align: center;
   }
 
+  &__info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0.75rem;
+
+    & a {
+      font-size: smaller;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  &__show-info {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1rem;
+  }
+
   &__show-options {
     cursor: pointer;
     margin: 1rem;
